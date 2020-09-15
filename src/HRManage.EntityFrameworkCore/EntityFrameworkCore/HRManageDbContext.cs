@@ -6,6 +6,7 @@ using HRManage.MultiTenancy;
 using HRManager.Entitys;
 using HRManage.Models.Attendance_sheet;
 using HRManage.Models.AuthorityManagement;
+using HRManage.Models.Grades;
 
 namespace HRManage.EntityFrameworkCore
 {
@@ -27,5 +28,6 @@ namespace HRManage.EntityFrameworkCore
         public DbSet<UserInfo> UserInfos { get; set; }
         public DbSet<Department> Departments { get; set; }
 
+        public DbSet<Yearstaff> Yearstaffs { get; set; }
     }
 }

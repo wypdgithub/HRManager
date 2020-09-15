@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Abp.Domain.Entities.Auditing;
 
 namespace HRManage.Models.Grades
 {
     /// <summary>
     /// 年度员工绩效表
     /// </summary>
-    class Yearstaff
+    public class Yearstaff:AuditedAggregateRoot<Guid>
     {
         public int Duty			 { get; set; }     //职务
         public int AssessType		 { get; set; } //考核类型
