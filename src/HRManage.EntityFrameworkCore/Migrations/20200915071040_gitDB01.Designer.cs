@@ -4,14 +4,16 @@ using HRManage.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace HRManage.Migrations
 {
     [DbContext(typeof(HRManageDbContext))]
-    partial class HRManageDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200915071040_gitDB01")]
+    partial class gitDB01
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -1546,32 +1548,6 @@ namespace HRManage.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Evection");
-                });
-
-            modelBuilder.Entity("HRManage.Models.Attendance_sheet.Extra_Work", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("ApplyTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<Guid>("Dept_Id")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Work_Content")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("Work_EndTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("Work_StartTime")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Extra_Work");
                 });
 
             modelBuilder.Entity("HRManage.Models.Attendance_sheet.Please_Leave", b =>
