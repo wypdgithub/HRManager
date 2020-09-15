@@ -8,7 +8,7 @@ namespace HRManage.AuthorityManagement.Dto
 {
    public class DepartmentMapProfile:Profile
     {
-      public DepartmentDto()
+      public DepartmentMapProfile()
         {
             CreateMap<DepartmentDto, Department>();
             CreateMap<CreateUpdateDepartmentDto, Department>();
