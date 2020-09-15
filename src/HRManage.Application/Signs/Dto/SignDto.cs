@@ -1,17 +1,13 @@
-﻿using Abp.Domain.Entities;
-using Abp.Domain.Entities.Auditing;
-using Castle.Components.DictionaryAdapter;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
+using Abp.Application.Services.Dto;
 
-namespace HRManage.Models.Attendance_sheet
+namespace HRManage.Signs.Dto
 {
-    //签到表
-   public class Sign_In_Tb:Entity<Guid>
+    public class SignDto:EntityDto<Guid>
     {
-        
         public new Guid Id { get; set; }
         public int UserId { get; set; }//用户外键
         [StringLength(30)]
@@ -32,6 +28,6 @@ namespace HRManage.Models.Attendance_sheet
         public int sign_In_Mor_States { get; set; }//上午打卡状态
         public int sign_In_Aft_States { get; set; }//下午打卡状态
 
-       
+        public DateTime CreationTime { get; set; }
     }
 }
