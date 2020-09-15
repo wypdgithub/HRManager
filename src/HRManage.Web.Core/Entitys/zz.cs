@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HRManage.Models.Grade
+namespace HRManage.Entitys
 {
-    class Monthstaff
+    class zz
     {
     }
 }
