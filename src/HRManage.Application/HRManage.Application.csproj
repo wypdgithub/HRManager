@@ -11,6 +11,11 @@
     <RootNamespace>HRManage</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="Sign_In_Tbs\**" />
+    <EmbeddedResource Remove="Sign_In_Tbs\**" />
+    <None Remove="Sign_In_Tbs\**" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\HRManage.Core\HRManage.Core.csproj" />
   </ItemGroup>
 </Project>
