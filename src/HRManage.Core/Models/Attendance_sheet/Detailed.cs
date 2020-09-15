@@ -7,7 +7,7 @@ using System.Text;
 namespace HRManager.Entitys
 {
     //详细表
-   public class Detailed:Entity<Guid>,IHasCreationTime
+   public class Detailed:Entity<Guid>
     {
         public new  Guid Id { get; set; }//全球唯一标识符
         public  Guid sign_In_Id { get; set; }//签到表外键
@@ -23,6 +23,6 @@ namespace HRManager.Entitys
         public DateTime ShouldBe { get; set; }//应出勤
         public DateTime RealBe { get; set; }//实际出勤
         public int forget { get; set; }//忘记打卡
-        public DateTime CreationTime { get; set; }
+       
     }
 }
