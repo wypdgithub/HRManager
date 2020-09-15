@@ -22,6 +22,7 @@ namespace HRManage.EntityFrameworkCore
         public DbSet<Please_Leave>  Please_Leave { get; set; }          //请假申请表
         public DbSet<Please_Leave_Type>  Please_Leave_Type { get; set; }//请假类型表
         public DbSet<Evection> Evection { get; set; }//出差表
+        public DbSet<Extra_Work> Extra_Work { get; set; }//加班表
 
     }
 }
