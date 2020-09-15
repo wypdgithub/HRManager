@@ -4,14 +4,16 @@ using HRManage.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace HRManage.Migrations
 {
     [DbContext(typeof(HRManageDbContext))]
-    partial class HRManageDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200915080715_091503")]
+    partial class _091503
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
