@@ -3,6 +3,7 @@ using Abp.Zero.EntityFrameworkCore;
 using HRManage.Authorization.Roles;
 using HRManage.Authorization.Users;
 using HRManage.MultiTenancy;
+using HRManager.Entitys;
 
 namespace HRManage.EntityFrameworkCore
 {
@@ -15,5 +16,7 @@ namespace HRManage.EntityFrameworkCore
         {
 
         }
+        public DbSet<Detailed> Detailed { get; set; }
+        public DbSet<Sign_In_Tb> Sign_In_Tb { get; set; }
     }
 }
