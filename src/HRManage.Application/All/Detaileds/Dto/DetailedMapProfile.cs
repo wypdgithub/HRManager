@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using HRManager.Entitys;
+using HRManage.Models.Attendance_sheet;
 using System;
 using System.Collections.Generic;
 using System.Text;

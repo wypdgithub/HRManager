@@ -1,12 +1,15 @@
-﻿using Abp.Domain.Entities;
+﻿using Abp.Application.Services.Dto;
+using Abp.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace HRManage.All.Please_Leaves.Dto
 {
-   public class Please_LeaveDto:Entity<Guid>
+
+    public class Please_LeaveDto:EntityDto<Guid>
     {
+       
         public new Guid Id { get; set; }//全球唯一标识符
     
         public string Proposer { get; set; }//申请人

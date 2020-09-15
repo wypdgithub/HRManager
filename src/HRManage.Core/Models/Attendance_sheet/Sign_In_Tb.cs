@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace HRManager.Entitys
+namespace HRManage.Models.Attendance_sheet
 {
     //签到表
    public class Sign_In_Tb:Entity<Guid>

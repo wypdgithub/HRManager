@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HRManager.Entitys
+namespace HRManage.Models.Attendance_sheet
 {
     //详细表
    public class Detailed:Entity<Guid>
