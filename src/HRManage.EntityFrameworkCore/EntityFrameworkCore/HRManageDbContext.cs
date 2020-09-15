@@ -13,6 +13,7 @@ namespace HRManage.EntityFrameworkCore
         public HRManageDbContext(DbContextOptions<HRManageDbContext> options)
             : base(options)
         {
+
         }
     }
 }
