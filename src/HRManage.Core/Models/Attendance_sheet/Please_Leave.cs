@@ -8,7 +8,8 @@ using System.Text;
 
 namespace HRManage.Models.Attendance_sheet
 {
-  public  class Please_Leave:Entity<Guid>,IHasCreationTime
+    //请假申请表
+  public  class Please_Leave:Entity<Guid>
     {
         public new Guid  Id { get; set; }//全球唯一标识符
         [StringLength(30)]
@@ -20,6 +21,6 @@ namespace HRManage.Models.Attendance_sheet
         public Guid Dept_Id { get; set; }//部门外键
         public string Business_Reason { get; set; }//请假原因
         public int States { get; set; }//请假审核状态
-        public DateTime CreationTime { get; set; }
+      
     }
 }
