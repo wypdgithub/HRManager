@@ -1,13 +1,13 @@
-﻿using Abp.Domain.Entities;
-using Abp.Domain.Entities.Auditing;
+﻿using Abp.Application.Services.Dto;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HRManage.Models.Grade
+namespace HRManage.Ping.Dto
 {
-   public class Monthstaff: Entity<Guid>
+   public class MonthstaffDto: EntityDto<Guid>
     {
+        public Guid SId { get; set; }
         public int Fidelity { get; set; }          //忠诚度
         public int Approve { get; set; }           //认同感 
         public int Executes { get; set; }          //执行力
