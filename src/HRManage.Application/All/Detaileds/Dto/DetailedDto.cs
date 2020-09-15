@@ -1,16 +1,15 @@
-﻿using Abp.Domain.Entities;
-using Abp.Domain.Entities.Auditing;
+﻿using Abp.Application.Services.Dto;
+using Abp.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HRManager.Entitys
+namespace HRManage.All.KQ.Dto
 {
-    //详细表
-   public class Detailed:Entity<Guid>
+   public class DetailedDto:EntityDto<Guid>
     {
-        public new  Guid Id { get; set; }//全球唯一标识符
-        public  Guid sign_In_Id { get; set; }//签到表外键
+        public new Guid Id { get; set; }//全球唯一标识符
+        public Guid sign_In_Id { get; set; }//签到表外键
         public int beLate { get; set; }//迟到
         public int leaveEarly { get; set; }//早退
         public int sickLeave { get; set; }//病假
@@ -23,6 +22,6 @@ namespace HRManager.Entitys
         public DateTime ShouldBe { get; set; }//应出勤
         public DateTime RealBe { get; set; }//实际出勤
         public int forget { get; set; }//忘记打卡
-      
+       
     }
 }
