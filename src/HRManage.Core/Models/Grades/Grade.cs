@@ -16,6 +16,6 @@ namespace HRManage.Models.Grade
         public int ChuId { get; set; }    // --出勤Id
         public int QingId { get; set; }   /// --请假Id
         public int MonthId { get; set; }  // --主管月度
-        public int YearId { get; set; }    //--主管年度
+        public int YearId  { get; set; }    //--主管年度
     }
 }
