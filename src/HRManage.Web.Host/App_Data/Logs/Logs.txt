@@ -1,0 +1,1467 @@
+DEBUG 2020-09-15 16:17:47,726 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 16:17:47,851 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 16:17:47,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.Web.Host.Startup.HRManageWebHostModule, HRManage.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,903 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageWebCoreModule, HRManage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageApplicationModule, HRManage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageCoreModule, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,906 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,906 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,907 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.EntityFrameworkCore.HRManageEntityFrameworkModule, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,915 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 16:17:48,023 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:17:48,023 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:17:48,023 [1    ] o.Configuration.LanguageManagementConfig - Converted HRManage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:17:48,023 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:17:48,896 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HRManage.EntityFrameworkCore.HRManageDbContext, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:50,367 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 16:17:50,492 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 16:17:50,601 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 16:17:50,636 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HRManage
+DEBUG 2020-09-15 16:17:50,689 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 16:17:51,024 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 16:17:51,198 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[HRManage.MultiTenancy.Tenant, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[HRManage.Authorization.Users.User, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 16:17:51,257 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-15 16:17:51,257 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 16:17:51,266 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 16:17:51,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.UserDto
+DEBUG 2020-09-15 16:17:51,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 16:17:51,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 16:17:51,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 16:17:51,268 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 16:17:51,268 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.TenantDto
+FATAL 2020-09-15 16:21:39,263 [1    ] Abp.AbpBootstrapper                      - Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): 不能在具有唯一索引“IX_AbpSettings_TenantId_Name_UserId”的对象“dbo.AbpSettings”中插入重复键的行。重复键值为 (<NULL>, Abp.Net.Mail.DefaultFromDisplayName, <NULL>)。
+语句已终止。
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:1311e9da-81cc-45f5-bb64-433303305715
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Abp.EntityFrameworkCore.AbpDbContext.SaveChanges()
+   at Abp.Zero.EntityFrameworkCore.AbpZeroCommonDbContext`3.SaveChanges()
+   at HRManage.EntityFrameworkCore.Seed.Host.DefaultSettingsCreator.AddSettingIfNotExists(String name, String value, Nullable`1 tenantId) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultSettingsCreator.cs:line 44
+   at HRManage.EntityFrameworkCore.Seed.Host.DefaultSettingsCreator.Create() in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultSettingsCreator.cs:line 30
+   at HRManage.EntityFrameworkCore.Seed.Host.InitialHostDbBuilder.Create() in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\InitialHostDbBuilder.cs:line 17
+   at HRManage.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(HRManageDbContext context) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 25
+   at HRManage.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 41
+   at HRManage.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at HRManage.EntityFrameworkCore.HRManageEntityFrameworkModule.PostInitialize() in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\HRManageEntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): 不能在具有唯一索引“IX_AbpSettings_TenantId_Name_UserId”的对象“dbo.AbpSettings”中插入重复键的行。重复键值为 (<NULL>, Abp.Net.Mail.DefaultFromDisplayName, <NULL>)。
+语句已终止。
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:1311e9da-81cc-45f5-bb64-433303305715
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Abp.EntityFrameworkCore.AbpDbContext.SaveChanges()
+   at Abp.Zero.EntityFrameworkCore.AbpZeroCommonDbContext`3.SaveChanges()
+   at HRManage.EntityFrameworkCore.Seed.Host.DefaultSettingsCreator.AddSettingIfNotExists(String name, String value, Nullable`1 tenantId) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultSettingsCreator.cs:line 44
+   at HRManage.EntityFrameworkCore.Seed.Host.DefaultSettingsCreator.Create() in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultSettingsCreator.cs:line 30
+   at HRManage.EntityFrameworkCore.Seed.Host.InitialHostDbBuilder.Create() in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\InitialHostDbBuilder.cs:line 17
+   at HRManage.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(HRManageDbContext context) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 25
+   at HRManage.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 41
+   at HRManage.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at HRManage.EntityFrameworkCore.HRManageEntityFrameworkModule.PostInitialize() in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\HRManageEntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+FATAL 2020-09-15 16:21:42,773 [1    ] Microsoft.AspNetCore.Hosting.WebHost     - Application startup exception
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): 不能在具有唯一索引“IX_AbpSettings_TenantId_Name_UserId”的对象“dbo.AbpSettings”中插入重复键的行。重复键值为 (<NULL>, Abp.Net.Mail.DefaultFromDisplayName, <NULL>)。
+语句已终止。
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:1311e9da-81cc-45f5-bb64-433303305715
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Abp.EntityFrameworkCore.AbpDbContext.SaveChanges()
+   at Abp.Zero.EntityFrameworkCore.AbpZeroCommonDbContext`3.SaveChanges()
+   at HRManage.EntityFrameworkCore.Seed.Host.DefaultSettingsCreator.AddSettingIfNotExists(String name, String value, Nullable`1 tenantId) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultSettingsCreator.cs:line 44
+   at HRManage.EntityFrameworkCore.Seed.Host.DefaultSettingsCreator.Create() in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultSettingsCreator.cs:line 30
+   at HRManage.EntityFrameworkCore.Seed.Host.InitialHostDbBuilder.Create() in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\InitialHostDbBuilder.cs:line 17
+   at HRManage.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(HRManageDbContext context) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 25
+   at HRManage.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 41
+   at HRManage.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at HRManage.EntityFrameworkCore.HRManageEntityFrameworkModule.PostInitialize() in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\HRManageEntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app)
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction)
+   at HRManage.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, ILoggerFactory loggerFactory) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Web.Host\Startup\Startup.cs:line 122
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.WebHost.BuildApplication()
+WARN  2020-09-15 16:21:45,714 [14   ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+DEBUG 2020-09-15 16:22:02,180 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 16:22:02,279 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 16:22:02,299 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.Web.Host.Startup.HRManageWebHostModule, HRManage.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageWebCoreModule, HRManage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageApplicationModule, HRManage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageCoreModule, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.EntityFrameworkCore.HRManageEntityFrameworkModule, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,305 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,305 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,305 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,305 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,308 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 16:22:02,420 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:22:02,420 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:22:02,420 [1    ] o.Configuration.LanguageManagementConfig - Converted HRManage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:22:02,420 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:22:02,989 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HRManage.EntityFrameworkCore.HRManageDbContext, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:04,339 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 16:22:04,482 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 16:22:04,565 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 16:22:04,595 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HRManage
+DEBUG 2020-09-15 16:22:04,631 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 16:22:04,881 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 16:22:05,079 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[HRManage.MultiTenancy.Tenant, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[HRManage.Authorization.Users.User, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 16:22:05,153 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-15 16:22:05,153 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 16:22:05,159 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 16:22:05,159 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.UserDto
+DEBUG 2020-09-15 16:22:05,160 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 16:22:05,160 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 16:22:05,160 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 16:22:05,160 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 16:22:05,160 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.TenantDto
+INFO  2020-09-15 16:27:43,924 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+DEBUG 2020-09-15 16:28:35,010 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 16:28:35,105 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 16:28:35,120 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.Web.Host.Startup.HRManageWebHostModule, HRManage.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:28:35,122 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageWebCoreModule, HRManage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:28:35,122 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageApplicationModule, HRManage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:28:35,122 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageCoreModule, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:28:35,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:28:35,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:28:35,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:28:35,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:28:35,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.EntityFrameworkCore.HRManageEntityFrameworkModule, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:28:35,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:28:35,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:28:35,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:28:35,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:28:35,125 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:28:35,125 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:28:35,127 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 16:28:35,217 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:28:35,217 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:28:35,217 [1    ] o.Configuration.LanguageManagementConfig - Converted HRManage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:28:35,217 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:28:35,691 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HRManage.EntityFrameworkCore.HRManageDbContext, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:28:36,787 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 16:28:36,864 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 16:28:36,919 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 16:28:36,940 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HRManage
+DEBUG 2020-09-15 16:28:36,985 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 16:28:37,231 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 16:28:37,379 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[HRManage.MultiTenancy.Tenant, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[HRManage.Authorization.Users.User, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 16:28:37,431 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-15 16:28:37,431 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 16:28:37,438 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 16:28:37,439 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.UserDto
+DEBUG 2020-09-15 16:28:37,439 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 16:28:37,439 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 16:28:37,439 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 16:28:37,440 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 16:28:37,440 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.TenantDto
+INFO  2020-09-15 16:28:40,104 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-15 16:28:40,405 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\liuatao\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-15 16:28:40,484 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-09-15 16:28:40,590 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host)'
+INFO  2020-09-15 16:28:44,504 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller HRManage.Web.Host.Controllers.HomeController (HRManage.Web.Host).
+INFO  2020-09-15 16:28:45,701 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host) - Validation state: Valid
+INFO  2020-09-15 16:28:45,709 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.5055ms.
+INFO  2020-09-15 16:28:45,942 [13   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-09-15 16:28:45,951 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host) in 1440.432ms
+INFO  2020-09-15 16:28:45,954 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host)'
+INFO  2020-09-15 16:28:45,973 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-09-15 16:28:45,977 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5492.7056ms 302 
+INFO  2020-09-15 16:28:46,056 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 82.5747ms 200 text/html;charset=utf-8
+INFO  2020-09-15 16:28:46,078 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-09-15 16:28:46,080 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-09-15 16:28:46,107 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-09-15 16:28:46,107 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-09-15 16:28:46,111 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.9487ms 200 application/javascript
+INFO  2020-09-15 16:28:46,114 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.9791ms 200 application/javascript
+INFO  2020-09-15 16:28:46,122 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-09-15 16:28:46,129 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host)'
+INFO  2020-09-15 16:28:46,139 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller HRManage.Web.Host.Controllers.AntiForgeryController (HRManage.Web.Host).
+INFO  2020-09-15 16:28:46,170 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host) - Validation state: Valid
+INFO  2020-09-15 16:28:46,181 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 8.8346ms.
+INFO  2020-09-15 16:28:46,204 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 16:28:46,322 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host) in 180.6112ms
+INFO  2020-09-15 16:28:46,325 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host)'
+INFO  2020-09-15 16:28:46,328 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 204.9565ms 200 application/json; charset=utf-8
+INFO  2020-09-15 16:29:04,814 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-09-15 16:29:04,821 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.5217ms 200 text/html;charset=utf-8
+INFO  2020-09-15 16:29:04,842 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-09-15 16:29:04,845 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-09-15 16:29:04,847 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-09-15 16:29:04,885 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-09-15 16:29:04,887 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-09-15 16:29:04,890 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-09-15 16:29:04,898 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 51.0823ms 200 application/javascript
+INFO  2020-09-15 16:29:04,900 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 52.4031ms 200 application/javascript
+INFO  2020-09-15 16:29:04,902 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 55.1925ms 200 text/css
+INFO  2020-09-15 16:29:05,087 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-09-15 16:29:05,092 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host)'
+INFO  2020-09-15 16:29:05,100 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller HRManage.Web.Host.Controllers.AntiForgeryController (HRManage.Web.Host).
+INFO  2020-09-15 16:29:05,126 [13   ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host) - Validation state: Valid
+INFO  2020-09-15 16:29:05,130 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action method HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 1.6089ms.
+INFO  2020-09-15 16:29:05,135 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-09-15 16:29:05,159 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 16:29:05,166 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host) in 60.0449ms
+INFO  2020-09-15 16:29:05,171 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host)'
+INFO  2020-09-15 16:29:05,176 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 87.0366ms 200 application/json; charset=utf-8
+INFO  2020-09-15 16:29:05,182 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2020-09-15 16:29:05,189 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2020-09-15 16:29:05,192 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.3944ms 200 image/png
+INFO  2020-09-15 16:29:05,346 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 211.6898ms 200 application/json;charset=utf-8
+DEBUG 2020-09-15 16:30:02,691 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 16:30:02,797 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 16:30:02,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.Web.Host.Startup.HRManageWebHostModule, HRManage.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,836 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageWebCoreModule, HRManage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,837 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageApplicationModule, HRManage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,838 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageCoreModule, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,838 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,839 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,839 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,840 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,840 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.EntityFrameworkCore.HRManageEntityFrameworkModule, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,841 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,841 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,841 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,846 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 16:30:02,944 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:30:02,944 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:30:02,944 [1    ] o.Configuration.LanguageManagementConfig - Converted HRManage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:30:02,944 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:30:03,460 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HRManage.EntityFrameworkCore.HRManageDbContext, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:04,741 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 16:30:04,825 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 16:30:04,904 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 16:30:04,933 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HRManage
+DEBUG 2020-09-15 16:30:04,982 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 16:30:05,285 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 16:30:05,454 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[HRManage.MultiTenancy.Tenant, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[HRManage.Authorization.Users.User, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 16:30:05,513 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-15 16:30:05,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 16:30:05,522 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 16:30:05,523 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.UserDto
+DEBUG 2020-09-15 16:30:05,523 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 16:30:05,524 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 16:30:05,524 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 16:30:05,524 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 16:30:05,524 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.TenantDto
+INFO  2020-09-15 16:30:08,586 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-15 16:30:08,921 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\liuatao\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-15 16:30:09,007 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-09-15 16:30:09,107 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host)'
+INFO  2020-09-15 16:30:13,783 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller HRManage.Web.Host.Controllers.HomeController (HRManage.Web.Host).
+INFO  2020-09-15 16:30:15,224 [8    ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host) - Validation state: Valid
+INFO  2020-09-15 16:30:15,234 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action method HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.5992ms.
+INFO  2020-09-15 16:30:15,523 [13   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-09-15 16:30:15,535 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host) in 1743.1874ms
+INFO  2020-09-15 16:30:15,539 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host)'
+INFO  2020-09-15 16:30:15,561 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-09-15 16:30:15,565 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6556.4349ms 302 
+INFO  2020-09-15 16:30:15,649 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 87.6047ms 200 text/html;charset=utf-8
+INFO  2020-09-15 16:30:15,903 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-09-15 16:30:15,911 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host)'
+INFO  2020-09-15 16:30:15,924 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller HRManage.Web.Host.Controllers.AntiForgeryController (HRManage.Web.Host).
+INFO  2020-09-15 16:30:15,971 [5    ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host) - Validation state: Valid
+INFO  2020-09-15 16:30:15,973 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-09-15 16:30:15,988 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action method HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 14.3802ms.
+INFO  2020-09-15 16:30:16,020 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 16:30:16,173 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 198.2901ms 200 application/json;charset=utf-8
+INFO  2020-09-15 16:30:16,181 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host) in 252.5706ms
+INFO  2020-09-15 16:30:16,184 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host)'
+INFO  2020-09-15 16:30:16,189 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 283.8117ms 200 application/json; charset=utf-8
+DEBUG 2020-09-15 16:32:19,287 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 16:32:19,372 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 16:32:19,389 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.Web.Host.Startup.HRManageWebHostModule, HRManage.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:32:19,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageWebCoreModule, HRManage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:32:19,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageApplicationModule, HRManage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:32:19,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageCoreModule, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:32:19,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:32:19,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:32:19,393 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:32:19,393 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:32:19,393 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.EntityFrameworkCore.HRManageEntityFrameworkModule, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:32:19,394 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:32:19,394 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:32:19,394 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:32:19,394 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:32:19,394 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:32:19,395 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:32:19,397 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 16:32:19,486 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:32:19,486 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:32:19,486 [1    ] o.Configuration.LanguageManagementConfig - Converted HRManage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:32:19,486 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:32:19,922 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HRManage.EntityFrameworkCore.HRManageDbContext, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:32:21,001 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 16:32:21,090 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 16:32:21,149 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 16:32:21,176 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HRManage
+DEBUG 2020-09-15 16:32:21,218 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 16:32:21,486 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 16:32:21,656 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[HRManage.MultiTenancy.Tenant, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[HRManage.Authorization.Users.User, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 16:32:21,725 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-15 16:32:21,725 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 16:32:21,731 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 16:32:21,732 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.UserDto
+DEBUG 2020-09-15 16:32:21,732 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 16:32:21,732 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 16:32:21,732 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 16:32:21,732 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 16:32:21,732 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.TenantDto
+INFO  2020-09-15 16:32:24,807 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-15 16:32:25,151 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\liuatao\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-15 16:32:25,244 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-09-15 16:32:25,381 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host)'
+INFO  2020-09-15 16:32:29,452 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller HRManage.Web.Host.Controllers.HomeController (HRManage.Web.Host).
+INFO  2020-09-15 16:32:30,696 [14   ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host) - Validation state: Valid
+INFO  2020-09-15 16:32:30,704 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action method HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.4277ms.
+INFO  2020-09-15 16:32:30,924 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-09-15 16:32:30,932 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host) in 1473.3439ms
+INFO  2020-09-15 16:32:30,935 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host)'
+INFO  2020-09-15 16:32:30,955 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-09-15 16:32:30,957 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5711.8136ms 302 
+INFO  2020-09-15 16:32:31,045 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 90.0378ms 200 text/html;charset=utf-8
+INFO  2020-09-15 16:32:31,139 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-09-15 16:32:31,145 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host)'
+INFO  2020-09-15 16:32:31,154 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller HRManage.Web.Host.Controllers.AntiForgeryController (HRManage.Web.Host).
+INFO  2020-09-15 16:32:31,183 [7    ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host) - Validation state: Valid
+INFO  2020-09-15 16:32:31,191 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-09-15 16:32:31,196 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action method HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 11.2378ms.
+INFO  2020-09-15 16:32:31,225 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 16:32:31,354 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host) in 197.2702ms
+INFO  2020-09-15 16:32:31,356 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host)'
+INFO  2020-09-15 16:32:31,358 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 218.9613ms 200 application/json; charset=utf-8
+INFO  2020-09-15 16:32:31,369 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 177.2246ms 200 application/json;charset=utf-8
+INFO  2020-09-15 16:50:57,564 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021//api/services/app/UserInfo/GetAll  
+INFO  2020-09-15 16:50:57,582 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 17.8469ms 404 
+INFO  2020-09-15 16:51:13,325 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021//api/services/app/UserInfo/GetAll  
+INFO  2020-09-15 16:51:13,329 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.8957ms 404 
+INFO  2020-09-15 16:51:14,305 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021//api/services/app/UserInfo/GetAll  
+INFO  2020-09-15 16:51:14,309 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.8829ms 404 
+INFO  2020-09-15 16:51:21,033 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/UserInfo/GetAll  
+INFO  2020-09-15 16:51:21,060 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 16:51:21,082 [33   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "UserInfo"}. Executing controller action with signature Abp.Application.Services.Dto.PagedResultDto`1[HRManage.AuthorityManagement.Dto.UserInfoDto] GetAll(Abp.Application.Services.Dto.PagedAndSortedResultRequestDto) on controller HRManage.AuthorityManagement.UserInfoAppService (HRManage.Application).
+INFO  2020-09-15 16:51:21,634 [33   ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application) - Validation state: Valid
+ERROR 2020-09-15 16:51:43,072 [36   ] Mvc.ExceptionHandling.AbpExceptionFilter - Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UserInfo -> UserInfoDto
+HRManage.Models.AuthorityManagement.UserInfo -> HRManage.AuthorityManagement.Dto.UserInfoDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UserInfo -> UserInfoDto
+HRManage.Models.AuthorityManagement.UserInfo -> HRManage.AuthorityManagement.Dto.UserInfoDto
+   at lambda_method(Closure , UserInfo , UserInfoDto , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at Abp.AutoMapper.AutoMapperObjectMapper.Map[TDestination](Object source)
+   at Abp.Application.Services.CrudAppServiceBase`6.MapToEntityDto(TEntity entity)
+   at Castle.Proxies.UserInfoAppServiceProxy.MapToEntityDto_callback(UserInfo entity)
+   at Castle.Proxies.Invocations.CrudAppServiceBase`6_MapToEntityDto.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserInfoAppServiceProxy.MapToEntityDto(UserInfo entity)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at Abp.Application.Services.CrudAppService`8.GetAll(TGetAllInput input)
+   at HRManage.AuthorityManagement.UserInfoAppService.GetAll(PagedAndSortedResultRequestDto input) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Application\AuthorityManagement\UserInfoAppService.cs:line 30
+   at Castle.Proxies.UserInfoAppServiceProxy.GetAll_callback(PagedAndSortedResultRequestDto input)
+   at Castle.Proxies.Invocations.UserInfoAppService_GetAll.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserInfoAppServiceProxy.GetAll(PagedAndSortedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-09-15 16:51:43,434 [36   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 16:51:43,443 [36   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application) in 22358.9276ms
+INFO  2020-09-15 16:51:43,446 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 16:51:43,449 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 22415.4856ms 500 application/json; charset=utf-8
+INFO  2020-09-15 16:52:59,492 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/UserInfo/GetAll  
+INFO  2020-09-15 16:52:59,501 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 16:52:59,509 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "UserInfo"}. Executing controller action with signature Abp.Application.Services.Dto.PagedResultDto`1[HRManage.AuthorityManagement.Dto.UserInfoDto] GetAll(Abp.Application.Services.Dto.PagedAndSortedResultRequestDto) on controller HRManage.AuthorityManagement.UserInfoAppService (HRManage.Application).
+INFO  2020-09-15 16:52:59,542 [5    ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application) - Validation state: Valid
+DEBUG 2020-09-15 17:05:15,595 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 17:05:15,714 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 17:05:15,744 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.Web.Host.Startup.HRManageWebHostModule, HRManage.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:05:15,746 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageWebCoreModule, HRManage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:05:15,746 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageApplicationModule, HRManage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:05:15,746 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageCoreModule, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:05:15,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:05:15,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:05:15,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:05:15,748 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:05:15,748 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.EntityFrameworkCore.HRManageEntityFrameworkModule, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:05:15,748 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:05:15,748 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:05:15,748 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:05:15,749 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:05:15,749 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:05:15,749 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:05:15,755 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 17:05:15,847 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 17:05:15,847 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 17:05:15,848 [1    ] o.Configuration.LanguageManagementConfig - Converted HRManage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 17:05:15,848 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 17:05:16,344 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HRManage.EntityFrameworkCore.HRManageDbContext, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:05:17,470 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 17:05:17,587 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 17:05:17,647 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 17:05:17,671 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HRManage
+DEBUG 2020-09-15 17:05:17,709 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 17:05:17,996 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 17:05:18,163 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[HRManage.MultiTenancy.Tenant, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[HRManage.Authorization.Users.User, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 17:05:18,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-15 17:05:18,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 17:05:18,232 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 17:05:18,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.UserDto
+DEBUG 2020-09-15 17:05:18,234 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 17:05:18,234 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 17:05:18,234 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 17:05:18,234 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 17:05:18,235 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.TenantDto
+INFO  2020-09-15 17:05:21,323 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-15 17:05:21,667 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\liuatao\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-15 17:05:21,770 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/UserInfo/GetAll  
+INFO  2020-09-15 17:05:21,770 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-09-15 17:05:21,883 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host)'
+INFO  2020-09-15 17:05:21,900 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:05:26,180 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller HRManage.Web.Host.Controllers.HomeController (HRManage.Web.Host).
+INFO  2020-09-15 17:05:26,189 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "UserInfo"}. Executing controller action with signature Abp.Application.Services.Dto.PagedResultDto`1[HRManage.AuthorityManagement.Dto.UserInfoDto] GetAll(Abp.Application.Services.Dto.PagedAndSortedResultRequestDto) on controller HRManage.AuthorityManagement.UserInfoAppService (HRManage.Application).
+INFO  2020-09-15 17:05:27,518 [11   ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application) - Validation state: Valid
+INFO  2020-09-15 17:05:37,184 [9    ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host) - Validation state: Valid
+INFO  2020-09-15 17:05:37,200 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action method HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.6486ms.
+ERROR 2020-09-15 17:05:37,422 [12   ] Mvc.ExceptionHandling.AbpExceptionFilter - Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UserInfo -> UserInfoDto
+HRManage.Models.AuthorityManagement.UserInfo -> HRManage.AuthorityManagement.Dto.UserInfoDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UserInfo -> UserInfoDto
+HRManage.Models.AuthorityManagement.UserInfo -> HRManage.AuthorityManagement.Dto.UserInfoDto
+   at lambda_method(Closure , UserInfo , UserInfoDto , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at Abp.AutoMapper.AutoMapperObjectMapper.Map[TDestination](Object source)
+   at Abp.Application.Services.CrudAppServiceBase`6.MapToEntityDto(TEntity entity)
+   at Castle.Proxies.UserInfoAppServiceProxy.MapToEntityDto_callback(UserInfo entity)
+   at Castle.Proxies.Invocations.CrudAppServiceBase`6_MapToEntityDto.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserInfoAppServiceProxy.MapToEntityDto(UserInfo entity)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at Abp.Application.Services.CrudAppService`8.GetAll(TGetAllInput input)
+   at HRManage.AuthorityManagement.UserInfoAppService.GetAll(PagedAndSortedResultRequestDto input) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Application\AuthorityManagement\UserInfoAppService.cs:line 30
+   at Castle.Proxies.UserInfoAppServiceProxy.GetAll_callback(PagedAndSortedResultRequestDto input)
+   at Castle.Proxies.Invocations.UserInfoAppService_GetAll.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserInfoAppServiceProxy.GetAll(PagedAndSortedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-09-15 17:05:37,427 [4    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-09-15 17:05:37,439 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host) in 11249.7067ms
+INFO  2020-09-15 17:05:37,442 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host)'
+INFO  2020-09-15 17:05:37,514 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-09-15 17:05:37,526 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15756.3978ms 302 
+INFO  2020-09-15 17:05:37,695 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 180.9358ms 200 text/html;charset=utf-8
+INFO  2020-09-15 17:05:37,720 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-09-15 17:05:37,722 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-09-15 17:05:37,746 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2020-09-15 17:05:37,750 [15   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2020-09-15 17:05:37,756 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33.8617ms 304 application/javascript
+INFO  2020-09-15 17:05:37,759 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 35.3716ms 304 application/javascript
+INFO  2020-09-15 17:05:37,829 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-09-15 17:05:37,834 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host)'
+INFO  2020-09-15 17:05:37,837 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 17:05:37,846 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller HRManage.Web.Host.Controllers.AntiForgeryController (HRManage.Web.Host).
+INFO  2020-09-15 17:05:37,870 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host) - Validation state: Valid
+INFO  2020-09-15 17:05:37,878 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-09-15 17:05:37,914 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 10.342ms.
+INFO  2020-09-15 17:05:37,930 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 17:05:37,938 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application) in 11747.0675ms
+INFO  2020-09-15 17:05:37,939 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host) in 89.2953ms
+INFO  2020-09-15 17:05:37,941 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:05:37,942 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host)'
+INFO  2020-09-15 17:05:37,945 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16178.587ms 500 application/json; charset=utf-8
+INFO  2020-09-15 17:05:37,948 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 119.6157ms 200 application/json; charset=utf-8
+INFO  2020-09-15 17:05:38,070 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 191.0926ms 200 application/json;charset=utf-8
+INFO  2020-09-15 17:07:22,131 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/UserInfo/GetAll  
+INFO  2020-09-15 17:07:22,140 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:07:22,147 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "UserInfo"}. Executing controller action with signature Abp.Application.Services.Dto.PagedResultDto`1[HRManage.AuthorityManagement.Dto.UserInfoDto] GetAll(Abp.Application.Services.Dto.PagedAndSortedResultRequestDto) on controller HRManage.AuthorityManagement.UserInfoAppService (HRManage.Application).
+INFO  2020-09-15 17:07:22,172 [15   ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application) - Validation state: Valid
+ERROR 2020-09-15 17:07:24,339 [4    ] Mvc.ExceptionHandling.AbpExceptionFilter - Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UserInfo -> UserInfoDto
+HRManage.Models.AuthorityManagement.UserInfo -> HRManage.AuthorityManagement.Dto.UserInfoDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UserInfo -> UserInfoDto
+HRManage.Models.AuthorityManagement.UserInfo -> HRManage.AuthorityManagement.Dto.UserInfoDto
+   at lambda_method(Closure , UserInfo , UserInfoDto , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at Abp.AutoMapper.AutoMapperObjectMapper.Map[TDestination](Object source)
+   at Abp.Application.Services.CrudAppServiceBase`6.MapToEntityDto(TEntity entity)
+   at Castle.Proxies.UserInfoAppServiceProxy.MapToEntityDto_callback(UserInfo entity)
+   at Castle.Proxies.Invocations.CrudAppServiceBase`6_MapToEntityDto.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserInfoAppServiceProxy.MapToEntityDto(UserInfo entity)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at Abp.Application.Services.CrudAppService`8.GetAll(TGetAllInput input)
+   at HRManage.AuthorityManagement.UserInfoAppService.GetAll(PagedAndSortedResultRequestDto input) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Application\AuthorityManagement\UserInfoAppService.cs:line 30
+   at Castle.Proxies.UserInfoAppServiceProxy.GetAll_callback(PagedAndSortedResultRequestDto input)
+   at Castle.Proxies.Invocations.UserInfoAppService_GetAll.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserInfoAppServiceProxy.GetAll(PagedAndSortedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-09-15 17:07:24,344 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 17:07:24,347 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application) in 2198.1079ms
+INFO  2020-09-15 17:07:24,350 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:07:24,352 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2221.4009ms 500 application/json; charset=utf-8
+INFO  2020-09-15 17:07:44,399 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/UserInfo/GetAll  
+INFO  2020-09-15 17:07:44,404 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:07:44,411 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "UserInfo"}. Executing controller action with signature Abp.Application.Services.Dto.PagedResultDto`1[HRManage.AuthorityManagement.Dto.UserInfoDto] GetAll(Abp.Application.Services.Dto.PagedAndSortedResultRequestDto) on controller HRManage.AuthorityManagement.UserInfoAppService (HRManage.Application).
+INFO  2020-09-15 17:07:44,439 [9    ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application) - Validation state: Valid
+DEBUG 2020-09-15 17:11:44,334 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 17:11:44,408 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 17:11:44,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.Web.Host.Startup.HRManageWebHostModule, HRManage.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageWebCoreModule, HRManage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageApplicationModule, HRManage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageCoreModule, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,427 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,427 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.EntityFrameworkCore.HRManageEntityFrameworkModule, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,427 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,428 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,428 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,428 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,428 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,428 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,431 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 17:11:44,519 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 17:11:44,519 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 17:11:44,519 [1    ] o.Configuration.LanguageManagementConfig - Converted HRManage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 17:11:44,519 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 17:11:44,982 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HRManage.EntityFrameworkCore.HRManageDbContext, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:46,287 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 17:11:46,378 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 17:11:46,451 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 17:11:46,479 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HRManage
+DEBUG 2020-09-15 17:11:46,519 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 17:11:46,767 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 17:11:46,924 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[HRManage.MultiTenancy.Tenant, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[HRManage.Authorization.Users.User, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 17:11:46,983 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-15 17:11:46,983 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 17:11:46,992 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 17:11:46,992 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.UserDto
+DEBUG 2020-09-15 17:11:46,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 17:11:46,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 17:11:46,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 17:11:46,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 17:11:46,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.TenantDto
+INFO  2020-09-15 17:11:50,499 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-15 17:11:50,886 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\liuatao\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-15 17:11:50,997 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/UserInfo/GetAll  
+INFO  2020-09-15 17:11:50,997 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-09-15 17:11:51,148 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host)'
+INFO  2020-09-15 17:11:51,176 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:11:56,353 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller HRManage.Web.Host.Controllers.HomeController (HRManage.Web.Host).
+INFO  2020-09-15 17:11:56,355 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "UserInfo"}. Executing controller action with signature Abp.Application.Services.Dto.PagedResultDto`1[HRManage.AuthorityManagement.Dto.UserInfoDto] GetAll(Abp.Application.Services.Dto.PagedAndSortedResultRequestDto) on controller HRManage.AuthorityManagement.UserInfoAppService (HRManage.Application).
+INFO  2020-09-15 17:11:57,937 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application) - Validation state: Valid
+INFO  2020-09-15 17:12:01,826 [10   ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host) - Validation state: Valid
+INFO  2020-09-15 17:12:01,845 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action method HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.7246ms.
+ERROR 2020-09-15 17:12:02,171 [9    ] Mvc.ExceptionHandling.AbpExceptionFilter - Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UserInfo -> UserInfoDto
+HRManage.Models.AuthorityManagement.UserInfo -> HRManage.AuthorityManagement.Dto.UserInfoDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UserInfo -> UserInfoDto
+HRManage.Models.AuthorityManagement.UserInfo -> HRManage.AuthorityManagement.Dto.UserInfoDto
+   at lambda_method(Closure , UserInfo , UserInfoDto , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at Abp.AutoMapper.AutoMapperObjectMapper.Map[TDestination](Object source)
+   at Abp.Application.Services.CrudAppServiceBase`6.MapToEntityDto(TEntity entity)
+   at Castle.Proxies.UserInfoAppServiceProxy.MapToEntityDto_callback(UserInfo entity)
+   at Castle.Proxies.Invocations.CrudAppServiceBase`6_MapToEntityDto.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserInfoAppServiceProxy.MapToEntityDto(UserInfo entity)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Abp.Application.Services.CrudAppService`8.GetAll(TGetAllInput input)
+   at HRManage.AuthorityManagement.UserInfoAppService.GetAll(PagedAndSortedResultRequestDto input) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Application\AuthorityManagement\UserInfoAppService.cs:line 30
+   at Castle.Proxies.UserInfoAppServiceProxy.GetAll_callback(PagedAndSortedResultRequestDto input)
+   at Castle.Proxies.Invocations.UserInfoAppService_GetAll.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserInfoAppServiceProxy.GetAll(PagedAndSortedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-09-15 17:12:02,179 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-09-15 17:12:02,207 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host) in 5832.4502ms
+INFO  2020-09-15 17:12:02,211 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host)'
+INFO  2020-09-15 17:12:02,335 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-09-15 17:12:02,354 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11352.5714ms 302 
+INFO  2020-09-15 17:12:02,692 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 347.0677ms 200 text/html;charset=utf-8
+INFO  2020-09-15 17:12:02,895 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-09-15 17:12:02,904 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host)'
+INFO  2020-09-15 17:12:02,925 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller HRManage.Web.Host.Controllers.AntiForgeryController (HRManage.Web.Host).
+INFO  2020-09-15 17:12:02,978 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host) - Validation state: Valid
+INFO  2020-09-15 17:12:02,987 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-09-15 17:12:03,026 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 18.9119ms.
+INFO  2020-09-15 17:12:03,084 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 17:12:03,161 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host) in 231.2557ms
+INFO  2020-09-15 17:12:03,203 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host)'
+INFO  2020-09-15 17:12:03,236 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 337.7552ms 200 application/json; charset=utf-8
+INFO  2020-09-15 17:12:03,288 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 17:12:03,311 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application) in 6949.6433ms
+INFO  2020-09-15 17:12:03,322 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:12:03,326 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12331.0994ms 500 application/json; charset=utf-8
+INFO  2020-09-15 17:12:03,431 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 440.2366ms 200 application/json;charset=utf-8
+DEBUG 2020-09-15 17:19:26,690 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 17:19:26,780 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 17:19:26,802 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.Web.Host.Startup.HRManageWebHostModule, HRManage.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageWebCoreModule, HRManage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageApplicationModule, HRManage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageCoreModule, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,807 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,807 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.EntityFrameworkCore.HRManageEntityFrameworkModule, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,808 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,808 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,808 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,808 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,809 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,809 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,812 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 17:19:26,902 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 17:19:26,902 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 17:19:26,902 [1    ] o.Configuration.LanguageManagementConfig - Converted HRManage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 17:19:26,902 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 17:19:27,313 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HRManage.EntityFrameworkCore.HRManageDbContext, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:28,575 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 17:19:28,647 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 17:19:28,741 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 17:19:28,776 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HRManage
+DEBUG 2020-09-15 17:19:28,826 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 17:19:29,161 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 17:19:29,305 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[HRManage.MultiTenancy.Tenant, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[HRManage.Authorization.Users.User, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 17:19:29,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-15 17:19:29,370 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 17:19:29,375 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 17:19:29,375 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.UserDto
+DEBUG 2020-09-15 17:19:29,375 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 17:19:29,376 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 17:19:29,376 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 17:19:29,376 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 17:19:29,376 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.TenantDto
+INFO  2020-09-15 17:19:32,491 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-15 17:19:32,882 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\liuatao\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-15 17:19:32,988 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-09-15 17:19:33,098 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host)'
+INFO  2020-09-15 17:19:38,460 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller HRManage.Web.Host.Controllers.HomeController (HRManage.Web.Host).
+INFO  2020-09-15 17:19:40,105 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host) - Validation state: Valid
+INFO  2020-09-15 17:19:40,116 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.6703ms.
+INFO  2020-09-15 17:19:40,392 [12   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-09-15 17:19:40,404 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host) in 1937.0955ms
+INFO  2020-09-15 17:19:40,408 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host)'
+INFO  2020-09-15 17:19:40,434 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-09-15 17:19:40,438 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7452.55ms 302 
+INFO  2020-09-15 17:19:40,550 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 115.9863ms 200 text/html;charset=utf-8
+INFO  2020-09-15 17:19:40,678 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-09-15 17:19:40,687 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host)'
+INFO  2020-09-15 17:19:40,701 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller HRManage.Web.Host.Controllers.AntiForgeryController (HRManage.Web.Host).
+INFO  2020-09-15 17:19:40,749 [14   ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host) - Validation state: Valid
+INFO  2020-09-15 17:19:40,751 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-09-15 17:19:40,765 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action method HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 11.9397ms.
+INFO  2020-09-15 17:19:40,792 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 17:19:40,940 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 190.6923ms 200 application/json;charset=utf-8
+INFO  2020-09-15 17:19:40,950 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host) in 246.2691ms
+INFO  2020-09-15 17:19:40,952 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host)'
+INFO  2020-09-15 17:19:40,957 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 278.0376ms 200 application/json; charset=utf-8
+INFO  2020-09-15 17:19:45,460 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/UserInfo/GetAll  
+INFO  2020-09-15 17:19:45,480 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:19:45,499 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "UserInfo"}. Executing controller action with signature Abp.Application.Services.Dto.PagedResultDto`1[HRManage.AuthorityManagement.Dto.UserInfoDto] GetAll(Abp.Application.Services.Dto.PagedAndSortedResultRequestDto) on controller HRManage.AuthorityManagement.UserInfoAppService (HRManage.Application).
+INFO  2020-09-15 17:19:46,021 [13   ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application) - Validation state: Valid
+ERROR 2020-09-15 17:27:15,107 [9    ] Mvc.ExceptionHandling.AbpExceptionFilter - Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UserInfo -> UserInfoDto
+HRManage.Models.AuthorityManagement.UserInfo -> HRManage.AuthorityManagement.Dto.UserInfoDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UserInfo -> UserInfoDto
+HRManage.Models.AuthorityManagement.UserInfo -> HRManage.AuthorityManagement.Dto.UserInfoDto
+   at lambda_method(Closure , UserInfo , UserInfoDto , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at Abp.AutoMapper.AutoMapperObjectMapper.Map[TDestination](Object source)
+   at Abp.Application.Services.CrudAppServiceBase`6.MapToEntityDto(TEntity entity)
+   at Castle.Proxies.UserInfoAppServiceProxy.MapToEntityDto_callback(UserInfo entity)
+   at Castle.Proxies.Invocations.CrudAppServiceBase`6_MapToEntityDto.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserInfoAppServiceProxy.MapToEntityDto(UserInfo entity)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at Abp.Application.Services.CrudAppService`8.GetAll(TGetAllInput input)
+   at HRManage.AuthorityManagement.UserInfoAppService.GetAll(PagedAndSortedResultRequestDto input) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Application\AuthorityManagement\UserInfoAppService.cs:line 30
+   at Castle.Proxies.UserInfoAppServiceProxy.GetAll_callback(PagedAndSortedResultRequestDto input)
+   at Castle.Proxies.Invocations.UserInfoAppService_GetAll.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserInfoAppServiceProxy.GetAll(PagedAndSortedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-09-15 17:27:15,463 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 17:27:15,472 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application) in 449970.6605ms
+INFO  2020-09-15 17:27:15,474 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.AuthorityManagement.UserInfoAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:27:15,478 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 450016.9457ms 500 application/json; charset=utf-8
+INFO  2020-09-15 17:27:21,787 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Department/GetAll  
+INFO  2020-09-15 17:27:21,794 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:27:21,803 [29   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Department"}. Executing controller action with signature Abp.Application.Services.Dto.PagedResultDto`1[HRManage.AuthorityManagement.Dto.DepartmentDto] GetAll(Abp.Application.Services.Dto.PagedAndSortedResultRequestDto) on controller HRManage.AuthorityManagement.DepartmentAppService (HRManage.Application).
+INFO  2020-09-15 17:27:22,258 [29   ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application) - Validation state: Valid
+ERROR 2020-09-15 17:27:22,370 [14   ] Mvc.ExceptionHandling.AbpExceptionFilter - Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Department -> DepartmentDto
+HRManage.Models.AuthorityManagement.Department -> HRManage.AuthorityManagement.Dto.DepartmentDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Department -> DepartmentDto
+HRManage.Models.AuthorityManagement.Department -> HRManage.AuthorityManagement.Dto.DepartmentDto
+   at lambda_method(Closure , Department , DepartmentDto , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at Abp.AutoMapper.AutoMapperObjectMapper.Map[TDestination](Object source)
+   at Abp.Application.Services.CrudAppServiceBase`6.MapToEntityDto(TEntity entity)
+   at Castle.Proxies.DepartmentAppServiceProxy.MapToEntityDto_callback(Department entity)
+   at Castle.Proxies.Invocations.CrudAppServiceBase`6_MapToEntityDto_1.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DepartmentAppServiceProxy.MapToEntityDto(Department entity)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at Abp.Application.Services.CrudAppService`8.GetAll(TGetAllInput input)
+   at HRManage.AuthorityManagement.DepartmentAppService.GetAll(PagedAndSortedResultRequestDto input) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Application\AuthorityManagement\DepartmentAppService.cs:line 38
+   at Castle.Proxies.DepartmentAppServiceProxy.GetAll_callback(PagedAndSortedResultRequestDto input)
+   at Castle.Proxies.Invocations.DepartmentAppService_GetAll.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DepartmentAppServiceProxy.GetAll(PagedAndSortedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-09-15 17:27:22,375 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 17:27:22,378 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application) in 572.6773ms
+INFO  2020-09-15 17:27:22,380 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:27:22,383 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 596.6739ms 500 application/json; charset=utf-8
+INFO  2020-09-15 17:27:51,612 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021//api/services/app/Department/GetAll  
+INFO  2020-09-15 17:27:51,619 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.5401ms 404 
+INFO  2020-09-15 17:28:46,742 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021//api/services/app/Department/GetAll  
+INFO  2020-09-15 17:28:46,748 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.3406ms 404 
+INFO  2020-09-15 17:28:56,308 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Department/GetAll  
+INFO  2020-09-15 17:28:56,314 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:28:56,321 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Department"}. Executing controller action with signature Abp.Application.Services.Dto.PagedResultDto`1[HRManage.AuthorityManagement.Dto.DepartmentDto] GetAll(Abp.Application.Services.Dto.PagedAndSortedResultRequestDto) on controller HRManage.AuthorityManagement.DepartmentAppService (HRManage.Application).
+INFO  2020-09-15 17:28:56,353 [9    ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application) - Validation state: Valid
+ERROR 2020-09-15 17:28:56,449 [14   ] Mvc.ExceptionHandling.AbpExceptionFilter - Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Department -> DepartmentDto
+HRManage.Models.AuthorityManagement.Department -> HRManage.AuthorityManagement.Dto.DepartmentDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Department -> DepartmentDto
+HRManage.Models.AuthorityManagement.Department -> HRManage.AuthorityManagement.Dto.DepartmentDto
+   at lambda_method(Closure , Department , DepartmentDto , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at Abp.AutoMapper.AutoMapperObjectMapper.Map[TDestination](Object source)
+   at Abp.Application.Services.CrudAppServiceBase`6.MapToEntityDto(TEntity entity)
+   at Castle.Proxies.DepartmentAppServiceProxy.MapToEntityDto_callback(Department entity)
+   at Castle.Proxies.Invocations.CrudAppServiceBase`6_MapToEntityDto_1.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DepartmentAppServiceProxy.MapToEntityDto(Department entity)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at Abp.Application.Services.CrudAppService`8.GetAll(TGetAllInput input)
+   at HRManage.AuthorityManagement.DepartmentAppService.GetAll(PagedAndSortedResultRequestDto input) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Application\AuthorityManagement\DepartmentAppService.cs:line 38
+   at Castle.Proxies.DepartmentAppServiceProxy.GetAll_callback(PagedAndSortedResultRequestDto input)
+   at Castle.Proxies.Invocations.DepartmentAppService_GetAll.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DepartmentAppServiceProxy.GetAll(PagedAndSortedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-09-15 17:28:56,452 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 17:28:56,456 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application) in 132.4389ms
+INFO  2020-09-15 17:28:56,459 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:28:56,462 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 153.5624ms 500 application/json; charset=utf-8
+INFO  2020-09-15 17:29:06,717 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Department/GetAll  
+INFO  2020-09-15 17:29:06,722 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:29:06,731 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Department"}. Executing controller action with signature Abp.Application.Services.Dto.PagedResultDto`1[HRManage.AuthorityManagement.Dto.DepartmentDto] GetAll(Abp.Application.Services.Dto.PagedAndSortedResultRequestDto) on controller HRManage.AuthorityManagement.DepartmentAppService (HRManage.Application).
+INFO  2020-09-15 17:29:06,760 [9    ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application) - Validation state: Valid
+ERROR 2020-09-15 17:29:06,843 [31   ] Mvc.ExceptionHandling.AbpExceptionFilter - Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Department -> DepartmentDto
+HRManage.Models.AuthorityManagement.Department -> HRManage.AuthorityManagement.Dto.DepartmentDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Department -> DepartmentDto
+HRManage.Models.AuthorityManagement.Department -> HRManage.AuthorityManagement.Dto.DepartmentDto
+   at lambda_method(Closure , Department , DepartmentDto , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at Abp.AutoMapper.AutoMapperObjectMapper.Map[TDestination](Object source)
+   at Abp.Application.Services.CrudAppServiceBase`6.MapToEntityDto(TEntity entity)
+   at Castle.Proxies.DepartmentAppServiceProxy.MapToEntityDto_callback(Department entity)
+   at Castle.Proxies.Invocations.CrudAppServiceBase`6_MapToEntityDto_1.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DepartmentAppServiceProxy.MapToEntityDto(Department entity)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at Abp.Application.Services.CrudAppService`8.GetAll(TGetAllInput input)
+   at HRManage.AuthorityManagement.DepartmentAppService.GetAll(PagedAndSortedResultRequestDto input) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Application\AuthorityManagement\DepartmentAppService.cs:line 38
+   at Castle.Proxies.DepartmentAppServiceProxy.GetAll_callback(PagedAndSortedResultRequestDto input)
+   at Castle.Proxies.Invocations.DepartmentAppService_GetAll.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DepartmentAppServiceProxy.GetAll(PagedAndSortedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-09-15 17:29:06,847 [31   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 17:29:06,862 [31   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application) in 117.5254ms
+INFO  2020-09-15 17:29:06,864 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:29:06,867 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 150.4501ms 500 application/json; charset=utf-8
+INFO  2020-09-15 17:29:07,066 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Department/GetAll  
+INFO  2020-09-15 17:29:07,071 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:29:07,077 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Department"}. Executing controller action with signature Abp.Application.Services.Dto.PagedResultDto`1[HRManage.AuthorityManagement.Dto.DepartmentDto] GetAll(Abp.Application.Services.Dto.PagedAndSortedResultRequestDto) on controller HRManage.AuthorityManagement.DepartmentAppService (HRManage.Application).
+INFO  2020-09-15 17:29:07,105 [14   ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application) - Validation state: Valid
+ERROR 2020-09-15 17:29:07,185 [9    ] Mvc.ExceptionHandling.AbpExceptionFilter - Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Department -> DepartmentDto
+HRManage.Models.AuthorityManagement.Department -> HRManage.AuthorityManagement.Dto.DepartmentDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Department -> DepartmentDto
+HRManage.Models.AuthorityManagement.Department -> HRManage.AuthorityManagement.Dto.DepartmentDto
+   at lambda_method(Closure , Department , DepartmentDto , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at Abp.AutoMapper.AutoMapperObjectMapper.Map[TDestination](Object source)
+   at Abp.Application.Services.CrudAppServiceBase`6.MapToEntityDto(TEntity entity)
+   at Castle.Proxies.DepartmentAppServiceProxy.MapToEntityDto_callback(Department entity)
+   at Castle.Proxies.Invocations.CrudAppServiceBase`6_MapToEntityDto_1.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DepartmentAppServiceProxy.MapToEntityDto(Department entity)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at Abp.Application.Services.CrudAppService`8.GetAll(TGetAllInput input)
+   at HRManage.AuthorityManagement.DepartmentAppService.GetAll(PagedAndSortedResultRequestDto input) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Application\AuthorityManagement\DepartmentAppService.cs:line 38
+   at Castle.Proxies.DepartmentAppServiceProxy.GetAll_callback(PagedAndSortedResultRequestDto input)
+   at Castle.Proxies.Invocations.DepartmentAppService_GetAll.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DepartmentAppServiceProxy.GetAll(PagedAndSortedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-09-15 17:29:07,189 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 17:29:07,194 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application) in 113.2987ms
+INFO  2020-09-15 17:29:07,196 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:29:07,198 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 132.4597ms 500 application/json; charset=utf-8
+INFO  2020-09-15 17:29:07,441 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Department/GetAll  
+INFO  2020-09-15 17:29:07,446 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:29:07,456 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Department"}. Executing controller action with signature Abp.Application.Services.Dto.PagedResultDto`1[HRManage.AuthorityManagement.Dto.DepartmentDto] GetAll(Abp.Application.Services.Dto.PagedAndSortedResultRequestDto) on controller HRManage.AuthorityManagement.DepartmentAppService (HRManage.Application).
+INFO  2020-09-15 17:29:07,482 [9    ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application) - Validation state: Valid
+ERROR 2020-09-15 17:29:07,568 [34   ] Mvc.ExceptionHandling.AbpExceptionFilter - Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Department -> DepartmentDto
+HRManage.Models.AuthorityManagement.Department -> HRManage.AuthorityManagement.Dto.DepartmentDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Department -> DepartmentDto
+HRManage.Models.AuthorityManagement.Department -> HRManage.AuthorityManagement.Dto.DepartmentDto
+   at lambda_method(Closure , Department , DepartmentDto , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at Abp.AutoMapper.AutoMapperObjectMapper.Map[TDestination](Object source)
+   at Abp.Application.Services.CrudAppServiceBase`6.MapToEntityDto(TEntity entity)
+   at Castle.Proxies.DepartmentAppServiceProxy.MapToEntityDto_callback(Department entity)
+   at Castle.Proxies.Invocations.CrudAppServiceBase`6_MapToEntityDto_1.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DepartmentAppServiceProxy.MapToEntityDto(Department entity)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at Abp.Application.Services.CrudAppService`8.GetAll(TGetAllInput input)
+   at HRManage.AuthorityManagement.DepartmentAppService.GetAll(PagedAndSortedResultRequestDto input) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Application\AuthorityManagement\DepartmentAppService.cs:line 38
+   at Castle.Proxies.DepartmentAppServiceProxy.GetAll_callback(PagedAndSortedResultRequestDto input)
+   at Castle.Proxies.Invocations.DepartmentAppService_GetAll.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DepartmentAppServiceProxy.GetAll(PagedAndSortedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-09-15 17:29:07,573 [34   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 17:29:07,576 [34   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application) in 118.091ms
+INFO  2020-09-15 17:29:07,579 [34   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:29:07,582 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 141.0487ms 500 application/json; charset=utf-8
+INFO  2020-09-15 17:29:07,906 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Department/GetAll  
+INFO  2020-09-15 17:29:07,910 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:29:07,917 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Department"}. Executing controller action with signature Abp.Application.Services.Dto.PagedResultDto`1[HRManage.AuthorityManagement.Dto.DepartmentDto] GetAll(Abp.Application.Services.Dto.PagedAndSortedResultRequestDto) on controller HRManage.AuthorityManagement.DepartmentAppService (HRManage.Application).
+INFO  2020-09-15 17:29:07,947 [9    ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application) - Validation state: Valid
+ERROR 2020-09-15 17:29:08,031 [31   ] Mvc.ExceptionHandling.AbpExceptionFilter - Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Department -> DepartmentDto
+HRManage.Models.AuthorityManagement.Department -> HRManage.AuthorityManagement.Dto.DepartmentDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Department -> DepartmentDto
+HRManage.Models.AuthorityManagement.Department -> HRManage.AuthorityManagement.Dto.DepartmentDto
+   at lambda_method(Closure , Department , DepartmentDto , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at Abp.AutoMapper.AutoMapperObjectMapper.Map[TDestination](Object source)
+   at Abp.Application.Services.CrudAppServiceBase`6.MapToEntityDto(TEntity entity)
+   at Castle.Proxies.DepartmentAppServiceProxy.MapToEntityDto_callback(Department entity)
+   at Castle.Proxies.Invocations.CrudAppServiceBase`6_MapToEntityDto_1.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DepartmentAppServiceProxy.MapToEntityDto(Department entity)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at Abp.Application.Services.CrudAppService`8.GetAll(TGetAllInput input)
+   at HRManage.AuthorityManagement.DepartmentAppService.GetAll(PagedAndSortedResultRequestDto input) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Application\AuthorityManagement\DepartmentAppService.cs:line 38
+   at Castle.Proxies.DepartmentAppServiceProxy.GetAll_callback(PagedAndSortedResultRequestDto input)
+   at Castle.Proxies.Invocations.DepartmentAppService_GetAll.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DepartmentAppServiceProxy.GetAll(PagedAndSortedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-09-15 17:29:08,034 [31   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 17:29:08,039 [31   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application) in 118.6202ms
+INFO  2020-09-15 17:29:08,042 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:29:08,044 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 138.4027ms 500 application/json; charset=utf-8
+INFO  2020-09-15 17:29:08,677 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Department/GetAll  
+INFO  2020-09-15 17:29:08,681 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:29:08,687 [33   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Department"}. Executing controller action with signature Abp.Application.Services.Dto.PagedResultDto`1[HRManage.AuthorityManagement.Dto.DepartmentDto] GetAll(Abp.Application.Services.Dto.PagedAndSortedResultRequestDto) on controller HRManage.AuthorityManagement.DepartmentAppService (HRManage.Application).
+INFO  2020-09-15 17:29:08,714 [33   ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application) - Validation state: Valid
+ERROR 2020-09-15 17:29:08,792 [14   ] Mvc.ExceptionHandling.AbpExceptionFilter - Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Department -> DepartmentDto
+HRManage.Models.AuthorityManagement.Department -> HRManage.AuthorityManagement.Dto.DepartmentDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Department -> DepartmentDto
+HRManage.Models.AuthorityManagement.Department -> HRManage.AuthorityManagement.Dto.DepartmentDto
+   at lambda_method(Closure , Department , DepartmentDto , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at Abp.AutoMapper.AutoMapperObjectMapper.Map[TDestination](Object source)
+   at Abp.Application.Services.CrudAppServiceBase`6.MapToEntityDto(TEntity entity)
+   at Castle.Proxies.DepartmentAppServiceProxy.MapToEntityDto_callback(Department entity)
+   at Castle.Proxies.Invocations.CrudAppServiceBase`6_MapToEntityDto_1.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DepartmentAppServiceProxy.MapToEntityDto(Department entity)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at Abp.Application.Services.CrudAppService`8.GetAll(TGetAllInput input)
+   at HRManage.AuthorityManagement.DepartmentAppService.GetAll(PagedAndSortedResultRequestDto input) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Application\AuthorityManagement\DepartmentAppService.cs:line 38
+   at Castle.Proxies.DepartmentAppServiceProxy.GetAll_callback(PagedAndSortedResultRequestDto input)
+   at Castle.Proxies.Invocations.DepartmentAppService_GetAll.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DepartmentAppServiceProxy.GetAll(PagedAndSortedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-09-15 17:29:08,796 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 17:29:08,800 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application) in 110.0137ms
+INFO  2020-09-15 17:29:08,802 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:29:08,807 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 129.1209ms 500 application/json; charset=utf-8
+INFO  2020-09-15 17:29:09,439 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Department/GetAll  
+INFO  2020-09-15 17:29:09,443 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:29:09,449 [31   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Department"}. Executing controller action with signature Abp.Application.Services.Dto.PagedResultDto`1[HRManage.AuthorityManagement.Dto.DepartmentDto] GetAll(Abp.Application.Services.Dto.PagedAndSortedResultRequestDto) on controller HRManage.AuthorityManagement.DepartmentAppService (HRManage.Application).
+INFO  2020-09-15 17:29:09,478 [31   ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application) - Validation state: Valid
+ERROR 2020-09-15 17:29:09,553 [34   ] Mvc.ExceptionHandling.AbpExceptionFilter - Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Department -> DepartmentDto
+HRManage.Models.AuthorityManagement.Department -> HRManage.AuthorityManagement.Dto.DepartmentDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Department -> DepartmentDto
+HRManage.Models.AuthorityManagement.Department -> HRManage.AuthorityManagement.Dto.DepartmentDto
+   at lambda_method(Closure , Department , DepartmentDto , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at Abp.AutoMapper.AutoMapperObjectMapper.Map[TDestination](Object source)
+   at Abp.Application.Services.CrudAppServiceBase`6.MapToEntityDto(TEntity entity)
+   at Castle.Proxies.DepartmentAppServiceProxy.MapToEntityDto_callback(Department entity)
+   at Castle.Proxies.Invocations.CrudAppServiceBase`6_MapToEntityDto_1.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DepartmentAppServiceProxy.MapToEntityDto(Department entity)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at Abp.Application.Services.CrudAppService`8.GetAll(TGetAllInput input)
+   at HRManage.AuthorityManagement.DepartmentAppService.GetAll(PagedAndSortedResultRequestDto input) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Application\AuthorityManagement\DepartmentAppService.cs:line 38
+   at Castle.Proxies.DepartmentAppServiceProxy.GetAll_callback(PagedAndSortedResultRequestDto input)
+   at Castle.Proxies.Invocations.DepartmentAppService_GetAll.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DepartmentAppServiceProxy.GetAll(PagedAndSortedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-09-15 17:29:09,557 [34   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 17:29:09,560 [34   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application) in 108.4631ms
+INFO  2020-09-15 17:29:09,563 [34   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:29:09,566 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 126.2919ms 500 application/json; charset=utf-8
+INFO  2020-09-15 17:29:09,849 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Department/GetAll  
+INFO  2020-09-15 17:29:09,853 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:29:09,862 [29   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Department"}. Executing controller action with signature Abp.Application.Services.Dto.PagedResultDto`1[HRManage.AuthorityManagement.Dto.DepartmentDto] GetAll(Abp.Application.Services.Dto.PagedAndSortedResultRequestDto) on controller HRManage.AuthorityManagement.DepartmentAppService (HRManage.Application).
+INFO  2020-09-15 17:29:09,893 [29   ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application) - Validation state: Valid
+ERROR 2020-09-15 17:29:09,972 [9    ] Mvc.ExceptionHandling.AbpExceptionFilter - Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Department -> DepartmentDto
+HRManage.Models.AuthorityManagement.Department -> HRManage.AuthorityManagement.Dto.DepartmentDto
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Department -> DepartmentDto
+HRManage.Models.AuthorityManagement.Department -> HRManage.AuthorityManagement.Dto.DepartmentDto
+   at lambda_method(Closure , Department , DepartmentDto , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at Abp.AutoMapper.AutoMapperObjectMapper.Map[TDestination](Object source)
+   at Abp.Application.Services.CrudAppServiceBase`6.MapToEntityDto(TEntity entity)
+   at Castle.Proxies.DepartmentAppServiceProxy.MapToEntityDto_callback(Department entity)
+   at Castle.Proxies.Invocations.CrudAppServiceBase`6_MapToEntityDto_1.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DepartmentAppServiceProxy.MapToEntityDto(Department entity)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at Abp.Application.Services.CrudAppService`8.GetAll(TGetAllInput input)
+   at HRManage.AuthorityManagement.DepartmentAppService.GetAll(PagedAndSortedResultRequestDto input) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Application\AuthorityManagement\DepartmentAppService.cs:line 38
+   at Castle.Proxies.DepartmentAppServiceProxy.GetAll_callback(PagedAndSortedResultRequestDto input)
+   at Castle.Proxies.Invocations.DepartmentAppService_GetAll.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DepartmentAppServiceProxy.GetAll(PagedAndSortedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-09-15 17:29:09,975 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 17:29:09,979 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application) in 114.4045ms
+INFO  2020-09-15 17:29:09,981 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.AuthorityManagement.DepartmentAppService.GetAll (HRManage.Application)'
+INFO  2020-09-15 17:29:09,984 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 134.2085ms 500 application/json; charset=utf-8
+INFO  2020-09-15 17:29:23,271 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021//api/services/app/Department/GetAll  
+INFO  2020-09-15 17:29:23,277 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.262ms 404 
