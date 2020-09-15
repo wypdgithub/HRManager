@@ -9,7 +9,6 @@ namespace HRManage.Models.Grade
 {
    public class Monthlead:Entity<Guid>
     {
-        public new Guid Id { get; set; }
         public string Duty { get; set; }          //职务
         public string AssessType { get; set; }   //考核类型
         public string Adjunct { get; set; }       //附件
@@ -31,6 +30,6 @@ namespace HRManage.Models.Grade
         public int Total { get; set; }             //合计
         public int Selfassessment { get; set; }    //自我评价
         public int Leadevaluaction { get; set; }   //主管评估
-        public int UserDepartment { get; set; }    //用户部门Id
+        public string UserDepartment { get; set; }    //用户部门Id
     }
 }
