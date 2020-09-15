@@ -1,0 +1,765 @@
+DEBUG 2020-09-15 16:17:47,524 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 16:17:47,688 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 16:17:47,714 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.Web.Startup.HRManageWebMvcModule, HRManage.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,717 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageWebCoreModule, HRManage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,718 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageApplicationModule, HRManage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,718 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageCoreModule, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.EntityFrameworkCore.HRManageEntityFrameworkModule, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,722 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,722 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,722 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:47,727 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 16:17:47,857 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:17:47,857 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:17:47,857 [1    ] o.Configuration.LanguageManagementConfig - Converted HRManage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:17:47,857 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:17:48,583 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HRManage.EntityFrameworkCore.HRManageDbContext, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:17:50,153 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 16:17:50,250 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 16:17:50,318 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 16:17:50,344 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HRManage
+DEBUG 2020-09-15 16:17:50,386 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 16:17:50,707 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 16:17:50,918 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[HRManage.MultiTenancy.Tenant, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[HRManage.Authorization.Users.User, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 16:17:51,004 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-09-15 16:17:51,004 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 16:17:51,010 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 16:17:51,011 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.UserDto
+DEBUG 2020-09-15 16:17:51,011 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 16:17:51,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 16:17:51,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 16:17:51,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 16:17:51,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.TenantDto
+DEBUG 2020-09-15 16:17:51,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-09-15 16:17:51,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-09-15 16:21:45,995 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-15 16:21:46,527 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\liuatao\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-15 16:21:46,614 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-09-15 16:21:46,747 [16   ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2020-09-15 16:21:46,756 [16   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2020-09-15 16:21:46,772 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2020-09-15 16:21:46,777 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 162.1001ms 302 
+INFO  2020-09-15 16:21:46,794 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Controllers.AccountController.Login (HRManage.Web.Mvc)'
+DEBUG 2020-09-15 16:22:02,370 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 16:22:02,480 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 16:22:02,502 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.Web.Startup.HRManageWebMvcModule, HRManage.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,504 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageWebCoreModule, HRManage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,505 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageApplicationModule, HRManage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,505 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageCoreModule, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,506 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,506 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,506 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.EntityFrameworkCore.HRManageEntityFrameworkModule, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:02,512 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 16:22:02,605 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:22:02,606 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:22:02,606 [1    ] o.Configuration.LanguageManagementConfig - Converted HRManage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:22:02,606 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:22:03,110 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HRManage.EntityFrameworkCore.HRManageDbContext, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:22:04,597 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 16:22:04,675 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 16:22:04,738 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 16:22:04,759 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HRManage
+DEBUG 2020-09-15 16:22:04,802 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 16:22:05,118 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 16:22:05,281 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[HRManage.MultiTenancy.Tenant, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[HRManage.Authorization.Users.User, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 16:22:05,337 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-09-15 16:22:05,337 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 16:22:05,342 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 16:22:05,343 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.UserDto
+DEBUG 2020-09-15 16:22:05,344 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 16:22:05,344 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 16:22:05,344 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 16:22:05,344 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 16:22:05,345 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.TenantDto
+DEBUG 2020-09-15 16:22:05,345 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-09-15 16:22:05,345 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Web.Models.Roles.EditRoleModalViewModel
+FATAL 2020-09-15 16:27:43,936 [1    ] Abp.AbpBootstrapper                      - Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): 不能在具有唯一索引“IX_AbpSettings_TenantId_Name_UserId”的对象“dbo.AbpSettings”中插入重复键的行。重复键值为 (<NULL>, Abp.Net.Mail.DefaultFromAddress, <NULL>)。
+语句已终止。
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:03fee02b-9d4b-4509-9f14-f5d04f4e7f54
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Abp.EntityFrameworkCore.AbpDbContext.SaveChanges()
+   at Abp.Zero.EntityFrameworkCore.AbpZeroCommonDbContext`3.SaveChanges()
+   at HRManage.EntityFrameworkCore.Seed.Host.DefaultSettingsCreator.AddSettingIfNotExists(String name, String value, Nullable`1 tenantId) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultSettingsCreator.cs:line 44
+   at HRManage.EntityFrameworkCore.Seed.Host.DefaultSettingsCreator.Create() in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultSettingsCreator.cs:line 29
+   at HRManage.EntityFrameworkCore.Seed.Host.InitialHostDbBuilder.Create() in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\InitialHostDbBuilder.cs:line 17
+   at HRManage.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(HRManageDbContext context) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 25
+   at HRManage.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 41
+   at HRManage.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at HRManage.EntityFrameworkCore.HRManageEntityFrameworkModule.PostInitialize() in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\HRManageEntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): 不能在具有唯一索引“IX_AbpSettings_TenantId_Name_UserId”的对象“dbo.AbpSettings”中插入重复键的行。重复键值为 (<NULL>, Abp.Net.Mail.DefaultFromAddress, <NULL>)。
+语句已终止。
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:03fee02b-9d4b-4509-9f14-f5d04f4e7f54
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Abp.EntityFrameworkCore.AbpDbContext.SaveChanges()
+   at Abp.Zero.EntityFrameworkCore.AbpZeroCommonDbContext`3.SaveChanges()
+   at HRManage.EntityFrameworkCore.Seed.Host.DefaultSettingsCreator.AddSettingIfNotExists(String name, String value, Nullable`1 tenantId) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultSettingsCreator.cs:line 44
+   at HRManage.EntityFrameworkCore.Seed.Host.DefaultSettingsCreator.Create() in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultSettingsCreator.cs:line 29
+   at HRManage.EntityFrameworkCore.Seed.Host.InitialHostDbBuilder.Create() in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\InitialHostDbBuilder.cs:line 17
+   at HRManage.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(HRManageDbContext context) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 25
+   at HRManage.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 41
+   at HRManage.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at HRManage.EntityFrameworkCore.HRManageEntityFrameworkModule.PostInitialize() in C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.EntityFrameworkCore\EntityFrameworkCore\HRManageEntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+DEBUG 2020-09-15 16:30:02,448 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 16:30:02,547 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 16:30:02,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.Web.Startup.HRManageWebMvcModule, HRManage.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageWebCoreModule, HRManage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageApplicationModule, HRManage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,593 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageCoreModule, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,593 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,594 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,596 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,597 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.EntityFrameworkCore.HRManageEntityFrameworkModule, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:02,605 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 16:30:02,725 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:30:02,725 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:30:02,725 [1    ] o.Configuration.LanguageManagementConfig - Converted HRManage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:30:02,725 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:30:03,226 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HRManage.EntityFrameworkCore.HRManageDbContext, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:30:04,493 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 16:30:04,589 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 16:30:04,655 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 16:30:04,677 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HRManage
+DEBUG 2020-09-15 16:30:04,722 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 16:30:04,966 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 16:30:05,163 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[HRManage.MultiTenancy.Tenant, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[HRManage.Authorization.Users.User, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 16:30:05,227 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-09-15 16:30:05,227 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 16:30:05,236 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 16:30:05,237 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.UserDto
+DEBUG 2020-09-15 16:30:05,237 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 16:30:05,237 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 16:30:05,237 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 16:30:05,237 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 16:30:05,237 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.TenantDto
+DEBUG 2020-09-15 16:30:05,237 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-09-15 16:30:05,238 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-09-15 16:30:08,339 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-15 16:30:08,908 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\liuatao\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-15 16:30:08,994 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-09-15 16:30:09,113 [7    ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2020-09-15 16:30:09,121 [7    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2020-09-15 16:30:09,135 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2020-09-15 16:30:09,141 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 146.4561ms 302 
+INFO  2020-09-15 16:30:09,144 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Controllers.AccountController.Login (HRManage.Web.Mvc)'
+INFO  2020-09-15 16:30:13,912 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller HRManage.Web.Controllers.AccountController (HRManage.Web.Mvc).
+INFO  2020-09-15 16:30:17,735 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-09-15 16:30:18,467 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 773.2237ms.
+INFO  2020-09-15 16:30:18,472 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.Web.Controllers.AccountController.Login (HRManage.Web.Mvc) in 4556.5665ms
+INFO  2020-09-15 16:30:18,475 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.Web.Controllers.AccountController.Login (HRManage.Web.Mvc)'
+INFO  2020-09-15 16:30:18,489 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/css/all.min.css  
+INFO  2020-09-15 16:30:18,496 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/icheck-bootstrap/icheck-bootstrap.css  
+INFO  2020-09-15 16:30:18,503 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9365.7458ms 200 text/html; charset=utf-8
+INFO  2020-09-15 16:30:18,506 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=pHobCa-IAfjMNqE8x1a2vYglVfPFWGtvFJmb0671Np0  
+INFO  2020-09-15 16:30:18,511 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.css  
+INFO  2020-09-15 16:30:18,524 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.1339ms 404 
+INFO  2020-09-15 16:30:18,526 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 17.8657ms 404 
+INFO  2020-09-15 16:30:18,529 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=4lZM0wjJ2dQ7A_s0DqJZvDRfKrl2g7nHv4nvpfkfmQw  
+INFO  2020-09-15 16:30:18,533 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery/jquery.js  
+INFO  2020-09-15 16:30:18,536 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css?v=D9O-28vCF-qJh2qZSFIXxXc30hTED8RmnKeZRyvVEpA  
+INFO  2020-09-15 16:30:18,539 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.8016ms 404 
+INFO  2020-09-15 16:30:18,542 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css  
+INFO  2020-09-15 16:30:18,544 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/spin/jquery.spin.js?v=i7H7HL08ldqUANgfQInE7LlU2uWUdQMCJ-Q7-_zLutY  
+INFO  2020-09-15 16:30:18,547 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.9756ms 404 
+INFO  2020-09-15 16:30:18,550 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 42.8383ms 404 
+INFO  2020-09-15 16:30:18,554 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js  
+INFO  2020-09-15 16:30:18,557 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js  
+INFO  2020-09-15 16:30:18,560 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.4398ms 404 
+INFO  2020-09-15 16:30:18,565 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.9946ms 404 
+INFO  2020-09-15 16:30:18,567 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js  
+INFO  2020-09-15 16:30:18,570 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js  
+INFO  2020-09-15 16:30:18,573 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.0917ms 404 
+INFO  2020-09-15 16:30:18,576 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.9548ms 404 
+INFO  2020-09-15 16:30:18,579 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js  
+INFO  2020-09-15 16:30:18,581 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js  
+INFO  2020-09-15 16:30:18,584 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.2355ms 404 
+INFO  2020-09-15 16:30:18,587 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.5074ms 404 
+INFO  2020-09-15 16:30:18,589 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js  
+INFO  2020-09-15 16:30:18,591 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=l0oatutGf6XkAcWBFmE3qDACwtY2P3NW0f285nhgZlo  
+INFO  2020-09-15 16:30:18,594 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.363ms 404 
+INFO  2020-09-15 16:30:18,599 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/localization/messages_zh.min.js  
+INFO  2020-09-15 16:30:18,603 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.8841ms 404 
+INFO  2020-09-15 16:30:18,619 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637357842051646169  
+INFO  2020-09-15 16:30:18,619 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Web.Mvc\wwwroot\js\main.js'
+INFO  2020-09-15 16:30:18,619 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/_Layout.css'. Physical path: 'C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Web.Mvc\wwwroot\view-resources\Views\Account\_Layout.css'
+INFO  2020-09-15 16:30:18,619 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/spin/jquery.spin.js'. Physical path: 'C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Web.Mvc\wwwroot\libs-ext\spin\jquery.spin.js'
+INFO  2020-09-15 16:30:18,621 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Web.Mvc\wwwroot\css\style.css'
+INFO  2020-09-15 16:30:18,623 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 117.7635ms 200 text/css
+INFO  2020-09-15 16:30:18,625 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.905ms 200 application/javascript
+INFO  2020-09-15 16:30:18,628 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 82.1963ms 200 application/javascript
+INFO  2020-09-15 16:30:18,630 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 99.7608ms 200 text/css
+INFO  2020-09-15 16:30:18,633 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-15 16:30:18,635 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637357842051646169  
+INFO  2020-09-15 16:30:18,639 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-15 16:30:18,640 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js  
+INFO  2020-09-15 16:30:18,643 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js  
+INFO  2020-09-15 16:30:18,645 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=QcQaP2tYhyMf9nF9oQ73Fek6Q4zGCxX2-VNI5iPnEaU  
+INFO  2020-09-15 16:30:18,651 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.9025ms 404 
+INFO  2020-09-15 16:30:18,655 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.js'. Physical path: 'C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Web.Mvc\wwwroot\view-resources\Views\Account\Login.js'
+INFO  2020-09-15 16:30:18,656 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.416ms 404 
+INFO  2020-09-15 16:30:18,658 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.9077ms 200 application/javascript
+INFO  2020-09-15 16:30:18,660 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637357842184550198  
+INFO  2020-09-15 16:30:18,663 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js  
+INFO  2020-09-15 16:30:18,665 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css'. Physical path: 'C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Web.Mvc\wwwroot\libs-ext\famfamfam-flags\dist\sprite\famfamfam-flags.min.css'
+INFO  2020-09-15 16:30:18,669 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 154.7522ms 200 text/css
+INFO  2020-09-15 16:30:18,672 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2020-09-15 16:30:18,677 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js  
+INFO  2020-09-15 16:30:18,680 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 17.1976ms 200 application/javascript
+INFO  2020-09-15 16:30:18,682 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js  
+INFO  2020-09-15 16:30:18,685 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js  
+INFO  2020-09-15 16:30:18,688 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.1837ms 404 
+INFO  2020-09-15 16:30:18,690 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.3362ms 404 
+INFO  2020-09-15 16:30:18,692 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.8315ms 404 
+INFO  2020-09-15 16:30:18,696 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js  
+INFO  2020-09-15 16:30:18,699 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.5708ms 404 
+INFO  2020-09-15 16:30:18,703 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js  
+INFO  2020-09-15 16:30:18,705 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12.1926ms 404 
+INFO  2020-09-15 16:30:18,708 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.2713ms 404 
+INFO  2020-09-15 16:30:18,716 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2020-09-15 16:30:18,719 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-09-15 16:30:18,733 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Web.Mvc\wwwroot\libs-ext\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2020-09-15 16:30:18,736 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23.0539ms 200 image/png
+INFO  2020-09-15 16:30:18,740 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-09-15 16:30:18,759 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery/jquery.js  
+INFO  2020-09-15 16:30:18,765 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.0605ms 404 
+INFO  2020-09-15 16:30:18,770 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js  
+INFO  2020-09-15 16:30:18,773 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.2292ms 404 
+INFO  2020-09-15 16:30:18,777 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js  
+INFO  2020-09-15 16:30:18,780 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.6867ms 404 
+INFO  2020-09-15 16:30:18,784 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js  
+INFO  2020-09-15 16:30:18,787 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.3987ms 404 
+INFO  2020-09-15 16:30:18,790 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js  
+INFO  2020-09-15 16:30:18,793 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.6104ms 404 
+INFO  2020-09-15 16:30:18,799 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js  
+INFO  2020-09-15 16:30:18,802 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.1828ms 404 
+INFO  2020-09-15 16:30:18,805 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js  
+INFO  2020-09-15 16:30:18,808 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.2305ms 404 
+INFO  2020-09-15 16:30:18,812 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js  
+INFO  2020-09-15 16:30:18,815 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.3489ms 404 
+INFO  2020-09-15 16:30:18,819 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js  
+INFO  2020-09-15 16:30:18,822 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.7767ms 404 
+INFO  2020-09-15 16:30:18,826 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js  
+INFO  2020-09-15 16:30:18,831 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.2508ms 404 
+INFO  2020-09-15 16:30:18,834 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js  
+INFO  2020-09-15 16:30:18,838 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.4904ms 404 
+INFO  2020-09-15 16:30:18,842 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js  
+INFO  2020-09-15 16:30:18,846 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.8469ms 404 
+INFO  2020-09-15 16:30:18,850 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js  
+INFO  2020-09-15 16:30:18,853 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.9443ms 404 
+INFO  2020-09-15 16:30:18,858 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js  
+INFO  2020-09-15 16:30:18,861 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.5002ms 404 
+INFO  2020-09-15 16:30:18,865 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js  
+INFO  2020-09-15 16:30:18,869 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.2852ms 404 
+INFO  2020-09-15 16:30:18,872 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js  
+INFO  2020-09-15 16:30:18,876 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.6739ms 404 
+INFO  2020-09-15 16:30:18,882 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/localization/messages_zh.min.js  
+INFO  2020-09-15 16:30:18,886 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.1193ms 404 
+INFO  2020-09-15 16:30:18,923 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-09-15 16:30:18,926 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 204.985ms
+INFO  2020-09-15 16:30:18,928 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-15 16:30:18,931 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 317.3163ms 200 application/x-javascript
+INFO  2020-09-15 16:30:18,950 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-09-15 16:30:18,953 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 211.418ms
+INFO  2020-09-15 16:30:18,956 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-15 16:30:18,957 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 325.2427ms 200 application/x-javascript; charset=utf-8
+INFO  2020-09-15 16:30:37,877 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2020-09-15 16:30:37,884 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Controllers.AccountController.Login (HRManage.Web.Mvc)'
+INFO  2020-09-15 16:30:37,898 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(HRManage.Web.Models.Account.LoginViewModel, System.String, System.String) on controller HRManage.Web.Controllers.AccountController (HRManage.Web.Mvc).
+INFO  2020-09-15 16:30:38,363 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2020-09-15 16:30:38,385 [14   ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 16:30:38,398 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.Web.Controllers.AccountController.Login (HRManage.Web.Mvc) in 497.4697ms
+INFO  2020-09-15 16:30:38,401 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.Web.Controllers.AccountController.Login (HRManage.Web.Mvc)'
+INFO  2020-09-15 16:30:38,405 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 529.449ms 200 application/json; charset=utf-8
+INFO  2020-09-15 16:30:38,448 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2020-09-15 16:30:38,496 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 47.4417ms 404 
+DEBUG 2020-09-15 17:11:43,974 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 17:11:44,057 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 17:11:44,073 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.Web.Startup.HRManageWebMvcModule, HRManage.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,075 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageWebCoreModule, HRManage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,076 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageApplicationModule, HRManage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,076 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageCoreModule, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,076 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,077 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,077 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,078 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,078 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.EntityFrameworkCore.HRManageEntityFrameworkModule, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,078 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,078 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:44,082 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 17:11:44,167 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 17:11:44,167 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 17:11:44,167 [1    ] o.Configuration.LanguageManagementConfig - Converted HRManage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 17:11:44,167 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 17:11:44,596 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HRManage.EntityFrameworkCore.HRManageDbContext, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:11:45,769 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 17:11:45,868 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 17:11:45,947 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 17:11:45,976 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HRManage
+DEBUG 2020-09-15 17:11:46,028 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 17:11:46,331 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 17:11:46,488 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[HRManage.MultiTenancy.Tenant, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[HRManage.Authorization.Users.User, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 17:11:46,559 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-09-15 17:11:46,559 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 17:11:46,567 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 17:11:46,568 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.UserDto
+DEBUG 2020-09-15 17:11:46,569 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 17:11:46,569 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 17:11:46,569 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 17:11:46,569 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 17:11:46,570 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.TenantDto
+DEBUG 2020-09-15 17:11:46,570 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-09-15 17:11:46,570 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-09-15 17:11:49,964 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-15 17:11:50,589 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\liuatao\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-15 17:11:50,710 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-09-15 17:11:50,847 [12   ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2020-09-15 17:11:50,855 [12   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2020-09-15 17:11:50,869 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2020-09-15 17:11:50,876 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 169.5465ms 302 
+INFO  2020-09-15 17:11:50,879 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Controllers.AccountController.Login (HRManage.Web.Mvc)'
+INFO  2020-09-15 17:11:56,135 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller HRManage.Web.Controllers.AccountController (HRManage.Web.Mvc).
+INFO  2020-09-15 17:12:04,885 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-09-15 17:12:05,726 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 882.4668ms.
+INFO  2020-09-15 17:12:05,731 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.Web.Controllers.AccountController.Login (HRManage.Web.Mvc) in 9592.5955ms
+INFO  2020-09-15 17:12:05,734 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.Web.Controllers.AccountController.Login (HRManage.Web.Mvc)'
+INFO  2020-09-15 17:12:05,755 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14880.9461ms 200 text/html; charset=utf-8
+INFO  2020-09-15 17:12:05,758 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/css/all.min.css  
+INFO  2020-09-15 17:12:05,770 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/icheck-bootstrap/icheck-bootstrap.css  
+INFO  2020-09-15 17:12:05,774 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=pHobCa-IAfjMNqE8x1a2vYglVfPFWGtvFJmb0671Np0  
+INFO  2020-09-15 17:12:05,777 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css?v=D9O-28vCF-qJh2qZSFIXxXc30hTED8RmnKeZRyvVEpA  
+INFO  2020-09-15 17:12:05,779 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.css  
+INFO  2020-09-15 17:12:05,783 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css  
+INFO  2020-09-15 17:12:05,788 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.8083ms 404 
+INFO  2020-09-15 17:12:05,791 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.7924ms 404 
+INFO  2020-09-15 17:12:05,794 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.5069ms 404 
+INFO  2020-09-15 17:12:05,810 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.303ms 404 
+INFO  2020-09-15 17:12:05,820 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=4lZM0wjJ2dQ7A_s0DqJZvDRfKrl2g7nHv4nvpfkfmQw  
+INFO  2020-09-15 17:12:05,821 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js  
+INFO  2020-09-15 17:12:05,824 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery/jquery.js  
+INFO  2020-09-15 17:12:05,826 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js  
+INFO  2020-09-15 17:12:05,831 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.4137ms 404 
+INFO  2020-09-15 17:12:05,834 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.3323ms 404 
+INFO  2020-09-15 17:12:05,838 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.3729ms 404 
+INFO  2020-09-15 17:12:05,840 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js  
+INFO  2020-09-15 17:12:05,842 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js  
+INFO  2020-09-15 17:12:05,844 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js  
+INFO  2020-09-15 17:12:05,848 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.5615ms 404 
+INFO  2020-09-15 17:12:05,852 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.0365ms 404 
+INFO  2020-09-15 17:12:05,855 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.4377ms 404 
+INFO  2020-09-15 17:12:05,857 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js  
+INFO  2020-09-15 17:12:05,859 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js  
+INFO  2020-09-15 17:12:05,862 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css was not modified
+INFO  2020-09-15 17:12:05,864 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Account/_Layout.css was not modified
+INFO  2020-09-15 17:12:05,867 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/style.css was not modified
+INFO  2020-09-15 17:12:05,869 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js  
+INFO  2020-09-15 17:12:05,872 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.3419ms 404 
+INFO  2020-09-15 17:12:05,874 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.2183ms 404 
+INFO  2020-09-15 17:12:05,877 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.8215ms 404 
+INFO  2020-09-15 17:12:05,885 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js  
+INFO  2020-09-15 17:12:05,905 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js  
+INFO  2020-09-15 17:12:05,917 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js  
+INFO  2020-09-15 17:12:05,920 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js  
+INFO  2020-09-15 17:12:05,927 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js  
+INFO  2020-09-15 17:12:05,934 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.7295ms 404 
+INFO  2020-09-15 17:12:05,939 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 105.4825ms 304 text/css
+INFO  2020-09-15 17:12:05,943 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.8942ms 404 
+INFO  2020-09-15 17:12:05,950 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 109.618ms 304 text/css
+INFO  2020-09-15 17:12:05,954 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 82.7871ms 304 text/css
+INFO  2020-09-15 17:12:05,957 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js  
+INFO  2020-09-15 17:12:05,959 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.4307ms 404 
+INFO  2020-09-15 17:12:05,965 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js  
+INFO  2020-09-15 17:12:05,969 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/spin/jquery.spin.js?v=i7H7HL08ldqUANgfQInE7LlU2uWUdQMCJ-Q7-_zLutY  
+INFO  2020-09-15 17:12:05,974 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21.4445ms 404 
+INFO  2020-09-15 17:12:05,976 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 62.5639ms 404 
+INFO  2020-09-15 17:12:05,982 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 82.2265ms 404 
+INFO  2020-09-15 17:12:05,988 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs-ext/spin/jquery.spin.js was not modified
+INFO  2020-09-15 17:12:05,993 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/localization/messages_zh.min.js  
+INFO  2020-09-15 17:12:05,998 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.2842ms 304 application/javascript
+INFO  2020-09-15 17:12:06,002 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637357867064899456  
+INFO  2020-09-15 17:12:06,006 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637357867064899456  
+INFO  2020-09-15 17:12:06,009 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637357867257105406  
+INFO  2020-09-15 17:12:06,016 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-15 17:12:06,019 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-15 17:12:06,023 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=QcQaP2tYhyMf9nF9oQ73Fek6Q4zGCxX2-VNI5iPnEaU  
+INFO  2020-09-15 17:12:06,025 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=l0oatutGf6XkAcWBFmE3qDACwtY2P3NW0f285nhgZlo  
+INFO  2020-09-15 17:12:06,029 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery/jquery.js  
+INFO  2020-09-15 17:12:06,035 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.4793ms 404 
+INFO  2020-09-15 17:12:06,043 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 90.748ms 404 
+INFO  2020-09-15 17:12:06,047 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2020-09-15 17:12:06,048 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Account/Login.js was not modified
+INFO  2020-09-15 17:12:06,053 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/main.js was not modified
+INFO  2020-09-15 17:12:06,057 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.4706ms 404 
+INFO  2020-09-15 17:12:06,061 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png was not modified
+INFO  2020-09-15 17:12:06,073 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.2094ms 304 application/javascript
+INFO  2020-09-15 17:12:06,080 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2020-09-15 17:12:06,082 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 61.3186ms 304 application/javascript
+INFO  2020-09-15 17:12:06,085 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.8166ms 304 image/png
+INFO  2020-09-15 17:12:06,088 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 86.246ms 200 application/javascript
+INFO  2020-09-15 17:12:06,093 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js  
+INFO  2020-09-15 17:12:06,101 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 22.4319ms 404 
+INFO  2020-09-15 17:12:06,106 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js  
+INFO  2020-09-15 17:12:06,116 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.1171ms 404 
+INFO  2020-09-15 17:12:06,118 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js  
+INFO  2020-09-15 17:12:06,122 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-09-15 17:12:06,127 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.9409ms 404 
+INFO  2020-09-15 17:12:06,130 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js  
+INFO  2020-09-15 17:12:06,134 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-09-15 17:12:06,140 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.7466ms 404 
+INFO  2020-09-15 17:12:06,143 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js  
+INFO  2020-09-15 17:12:06,149 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.1295ms 404 
+INFO  2020-09-15 17:12:06,153 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js  
+INFO  2020-09-15 17:12:06,157 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.876ms 404 
+INFO  2020-09-15 17:12:06,160 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js  
+INFO  2020-09-15 17:12:06,164 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.5671ms 404 
+INFO  2020-09-15 17:12:06,169 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js  
+INFO  2020-09-15 17:12:06,174 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.2233ms 404 
+INFO  2020-09-15 17:12:06,180 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js  
+INFO  2020-09-15 17:12:06,188 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.9027ms 404 
+INFO  2020-09-15 17:12:06,190 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js  
+INFO  2020-09-15 17:12:06,194 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.6774ms 404 
+INFO  2020-09-15 17:12:06,200 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js  
+INFO  2020-09-15 17:12:06,204 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.2296ms 404 
+INFO  2020-09-15 17:12:06,209 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js  
+INFO  2020-09-15 17:12:06,215 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.5424ms 404 
+INFO  2020-09-15 17:12:06,220 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js  
+INFO  2020-09-15 17:12:06,224 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.555ms 404 
+INFO  2020-09-15 17:12:06,227 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js  
+INFO  2020-09-15 17:12:06,232 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.2514ms 404 
+INFO  2020-09-15 17:12:06,236 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js  
+INFO  2020-09-15 17:12:06,240 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.4246ms 404 
+INFO  2020-09-15 17:12:06,244 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/localization/messages_zh.min.js  
+INFO  2020-09-15 17:12:06,249 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.5148ms 404 
+INFO  2020-09-15 17:12:06,313 [5    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-09-15 17:12:06,316 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 179.6466ms
+INFO  2020-09-15 17:12:06,318 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-15 17:12:06,321 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 325.6653ms 200 application/x-javascript
+INFO  2020-09-15 17:12:06,359 [8    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-09-15 17:12:06,363 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 238.221ms
+INFO  2020-09-15 17:12:06,366 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-15 17:12:06,369 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 373.6525ms 200 application/x-javascript; charset=utf-8
+INFO  2020-09-15 17:12:53,583 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2020-09-15 17:12:53,590 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Controllers.AccountController.Login (HRManage.Web.Mvc)'
+INFO  2020-09-15 17:12:53,600 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(HRManage.Web.Models.Account.LoginViewModel, System.String, System.String) on controller HRManage.Web.Controllers.AccountController (HRManage.Web.Mvc).
+INFO  2020-09-15 17:12:54,133 [14   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2020-09-15 17:12:54,166 [4    ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 17:12:54,184 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.Web.Controllers.AccountController.Login (HRManage.Web.Mvc) in 581.3113ms
+INFO  2020-09-15 17:12:54,187 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.Web.Controllers.AccountController.Login (HRManage.Web.Mvc)'
+INFO  2020-09-15 17:12:54,191 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 608.8299ms 200 application/json; charset=utf-8
+INFO  2020-09-15 17:12:54,251 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2020-09-15 17:12:54,302 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 54.2873ms 404 
+INFO  2020-09-15 17:13:32,487 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2020-09-15 17:13:32,496 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Controllers.AccountController.Login (HRManage.Web.Mvc)'
+INFO  2020-09-15 17:13:32,500 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller HRManage.Web.Controllers.AccountController (HRManage.Web.Mvc).
+INFO  2020-09-15 17:13:32,532 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-09-15 17:13:32,598 [15   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 66.083ms.
+INFO  2020-09-15 17:13:32,604 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.Web.Controllers.AccountController.Login (HRManage.Web.Mvc) in 100.035ms
+INFO  2020-09-15 17:13:32,606 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.Web.Controllers.AccountController.Login (HRManage.Web.Mvc)'
+INFO  2020-09-15 17:13:32,609 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 123.4571ms 200 text/html; charset=utf-8
+INFO  2020-09-15 17:13:32,623 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/css/all.min.css  
+INFO  2020-09-15 17:13:32,626 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/icheck-bootstrap/icheck-bootstrap.css  
+INFO  2020-09-15 17:13:32,632 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css  
+INFO  2020-09-15 17:13:32,639 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.css  
+INFO  2020-09-15 17:13:32,641 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 20.2869ms 404 
+INFO  2020-09-15 17:13:32,644 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.2078ms 404 
+INFO  2020-09-15 17:13:32,659 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery/jquery.js  
+INFO  2020-09-15 17:13:32,661 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js  
+INFO  2020-09-15 17:13:32,711 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js  
+INFO  2020-09-15 17:13:32,732 [35   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js  
+INFO  2020-09-15 17:13:32,755 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 93.2333ms 404 
+INFO  2020-09-15 17:13:32,767 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 124.2106ms 404 
+INFO  2020-09-15 17:13:32,770 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js  
+INFO  2020-09-15 17:13:32,773 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js  
+INFO  2020-09-15 17:13:32,786 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 96.6096ms 404 
+INFO  2020-09-15 17:13:32,790 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 117.161ms 404 
+INFO  2020-09-15 17:13:32,801 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js  
+INFO  2020-09-15 17:13:32,805 [35   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 117.3188ms 404 
+INFO  2020-09-15 17:13:32,808 [37   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js  
+INFO  2020-09-15 17:13:32,811 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js  
+INFO  2020-09-15 17:13:32,814 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 179.6756ms 404 
+INFO  2020-09-15 17:13:32,820 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 51.1343ms 404 
+INFO  2020-09-15 17:13:32,826 [37   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 55.0402ms 404 
+INFO  2020-09-15 17:13:32,846 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 56.2663ms 404 
+INFO  2020-09-15 17:13:32,852 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js  
+INFO  2020-09-15 17:13:32,853 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js  
+INFO  2020-09-15 17:13:32,856 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 80.8053ms 404 
+INFO  2020-09-15 17:13:32,858 [38   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js  
+INFO  2020-09-15 17:13:32,860 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js  
+INFO  2020-09-15 17:13:32,862 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js  
+INFO  2020-09-15 17:13:32,866 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.8072ms 404 
+INFO  2020-09-15 17:13:32,869 [45   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js  
+INFO  2020-09-15 17:13:32,881 [38   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.0621ms 404 
+INFO  2020-09-15 17:13:32,884 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 32.2286ms 404 
+INFO  2020-09-15 17:13:32,890 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 32.3512ms 404 
+INFO  2020-09-15 17:13:32,893 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30.1682ms 404 
+INFO  2020-09-15 17:13:32,894 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 57.7537ms 404 
+INFO  2020-09-15 17:13:32,896 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/localization/messages_zh.min.js  
+INFO  2020-09-15 17:13:32,900 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637357868125933749  
+INFO  2020-09-15 17:13:32,902 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js  
+INFO  2020-09-15 17:13:32,904 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery/jquery.js  
+INFO  2020-09-15 17:13:32,906 [45   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 34.8652ms 404 
+INFO  2020-09-15 17:13:32,911 [34   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2020-09-15 17:13:32,914 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 18.408ms 200 application/javascript
+INFO  2020-09-15 17:13:32,921 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30.1564ms 404 
+INFO  2020-09-15 17:13:32,924 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33.3881ms 404 
+INFO  2020-09-15 17:13:32,928 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30.347ms 404 
+INFO  2020-09-15 17:13:32,931 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js  
+INFO  2020-09-15 17:13:32,941 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.3824ms 404 
+INFO  2020-09-15 17:13:32,945 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js  
+INFO  2020-09-15 17:13:32,953 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.3101ms 404 
+INFO  2020-09-15 17:13:32,957 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js  
+INFO  2020-09-15 17:13:32,970 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.4654ms 404 
+INFO  2020-09-15 17:13:32,973 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js  
+INFO  2020-09-15 17:13:32,982 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.055ms 404 
+INFO  2020-09-15 17:13:32,993 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js  
+INFO  2020-09-15 17:13:33,004 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.6648ms 404 
+INFO  2020-09-15 17:13:33,008 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js  
+INFO  2020-09-15 17:13:33,017 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.7245ms 404 
+INFO  2020-09-15 17:13:33,023 [35   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js  
+INFO  2020-09-15 17:13:33,034 [35   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.6013ms 404 
+INFO  2020-09-15 17:13:33,038 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js  
+INFO  2020-09-15 17:13:33,048 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.6586ms 404 
+INFO  2020-09-15 17:13:33,053 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js  
+INFO  2020-09-15 17:13:33,059 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.8032ms 404 
+INFO  2020-09-15 17:13:33,063 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js  
+INFO  2020-09-15 17:13:33,070 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.1817ms 404 
+INFO  2020-09-15 17:13:33,074 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js  
+INFO  2020-09-15 17:13:33,080 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.7397ms 404 
+INFO  2020-09-15 17:13:33,084 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js  
+INFO  2020-09-15 17:13:33,091 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.7478ms 404 
+INFO  2020-09-15 17:13:33,094 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js  
+INFO  2020-09-15 17:13:33,101 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.7027ms 404 
+INFO  2020-09-15 17:13:33,104 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js  
+INFO  2020-09-15 17:13:33,110 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.073ms 404 
+INFO  2020-09-15 17:13:33,115 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/localization/messages_zh.min.js  
+INFO  2020-09-15 17:13:33,122 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.7761ms 404 
+INFO  2020-09-15 17:13:43,420 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 299
+INFO  2020-09-15 17:13:43,428 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Controllers.AccountController.Login (HRManage.Web.Mvc)'
+INFO  2020-09-15 17:13:43,432 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(HRManage.Web.Models.Account.LoginViewModel, System.String, System.String) on controller HRManage.Web.Controllers.AccountController (HRManage.Web.Mvc).
+INFO  2020-09-15 17:13:43,521 [4    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2020-09-15 17:13:43,534 [44   ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 17:13:43,537 [44   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.Web.Controllers.AccountController.Login (HRManage.Web.Mvc) in 102.814ms
+INFO  2020-09-15 17:13:43,540 [44   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.Web.Controllers.AccountController.Login (HRManage.Web.Mvc)'
+INFO  2020-09-15 17:13:43,543 [44   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 123.816ms 200 application/json; charset=utf-8
+DEBUG 2020-09-15 17:19:26,507 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 17:19:26,597 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 17:19:26,634 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.Web.Startup.HRManageWebMvcModule, HRManage.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,635 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageWebCoreModule, HRManage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,636 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageApplicationModule, HRManage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,636 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageCoreModule, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,636 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,636 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,637 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,637 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,637 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.EntityFrameworkCore.HRManageEntityFrameworkModule, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,637 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,638 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,638 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,638 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,638 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,638 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:26,641 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 17:19:26,728 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 17:19:26,728 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 17:19:26,728 [1    ] o.Configuration.LanguageManagementConfig - Converted HRManage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 17:19:26,728 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 17:19:27,184 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HRManage.EntityFrameworkCore.HRManageDbContext, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 17:19:28,450 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 17:19:28,557 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 17:19:28,610 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 17:19:28,631 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HRManage
+DEBUG 2020-09-15 17:19:28,682 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 17:19:28,957 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 17:19:29,179 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[HRManage.MultiTenancy.Tenant, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[HRManage.Authorization.Users.User, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 17:19:29,240 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-09-15 17:19:29,241 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 17:19:29,248 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 17:19:29,249 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.UserDto
+DEBUG 2020-09-15 17:19:29,249 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 17:19:29,249 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 17:19:29,249 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 17:19:29,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 17:19:29,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.TenantDto
+DEBUG 2020-09-15 17:19:29,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-09-15 17:19:29,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-09-15 17:19:32,333 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-15 17:19:32,969 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\liuatao\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-15 17:19:33,072 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-09-15 17:19:33,220 [5    ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2020-09-15 17:19:33,228 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2020-09-15 17:19:33,247 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2020-09-15 17:19:33,254 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 181.1889ms 302 
+INFO  2020-09-15 17:19:33,258 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Controllers.AccountController.Login (HRManage.Web.Mvc)'
+INFO  2020-09-15 17:19:38,687 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller HRManage.Web.Controllers.AccountController (HRManage.Web.Mvc).
+INFO  2020-09-15 17:19:42,768 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-09-15 17:19:43,517 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 787.9919ms.
+INFO  2020-09-15 17:19:43,522 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.Web.Controllers.AccountController.Login (HRManage.Web.Mvc) in 4831.7788ms
+INFO  2020-09-15 17:19:43,525 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.Web.Controllers.AccountController.Login (HRManage.Web.Mvc)'
+INFO  2020-09-15 17:19:43,537 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/css/all.min.css  
+INFO  2020-09-15 17:19:43,543 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10298.2093ms 200 text/html; charset=utf-8
+INFO  2020-09-15 17:19:43,547 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/icheck-bootstrap/icheck-bootstrap.css  
+INFO  2020-09-15 17:19:43,550 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.3274ms 404 
+INFO  2020-09-15 17:19:43,552 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.1026ms 404 
+INFO  2020-09-15 17:19:43,555 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.css  
+INFO  2020-09-15 17:19:43,557 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css  
+INFO  2020-09-15 17:19:43,561 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js  
+INFO  2020-09-15 17:19:43,563 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery/jquery.js  
+INFO  2020-09-15 17:19:43,567 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.4094ms 404 
+INFO  2020-09-15 17:19:43,569 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js  
+INFO  2020-09-15 17:19:43,571 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js  
+INFO  2020-09-15 17:19:43,573 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.8051ms 404 
+INFO  2020-09-15 17:19:43,576 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12.7054ms 404 
+INFO  2020-09-15 17:19:43,587 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.8655ms 404 
+INFO  2020-09-15 17:19:43,589 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js  
+INFO  2020-09-15 17:19:43,592 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js  
+INFO  2020-09-15 17:19:43,594 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.8513ms 404 
+INFO  2020-09-15 17:19:43,596 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23.1755ms 404 
+INFO  2020-09-15 17:19:43,598 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21.7363ms 404 
+INFO  2020-09-15 17:19:43,600 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js  
+INFO  2020-09-15 17:19:43,602 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.2466ms 404 
+INFO  2020-09-15 17:19:43,606 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js  
+INFO  2020-09-15 17:19:43,608 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.4242ms 404 
+INFO  2020-09-15 17:19:43,609 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js  
+INFO  2020-09-15 17:19:43,611 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js  
+INFO  2020-09-15 17:19:43,614 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js  
+INFO  2020-09-15 17:19:43,616 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js  
+INFO  2020-09-15 17:19:43,618 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.4466ms 404 
+INFO  2020-09-15 17:19:43,619 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.1031ms 404 
+INFO  2020-09-15 17:19:43,623 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.4708ms 404 
+INFO  2020-09-15 17:19:43,624 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js  
+INFO  2020-09-15 17:19:43,628 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.7875ms 404 
+INFO  2020-09-15 17:19:43,630 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12.1676ms 404 
+INFO  2020-09-15 17:19:43,632 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js  
+INFO  2020-09-15 17:19:43,634 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.3794ms 404 
+INFO  2020-09-15 17:19:43,636 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js  
+INFO  2020-09-15 17:19:43,638 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js  
+INFO  2020-09-15 17:19:43,640 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/localization/messages_zh.min.js  
+INFO  2020-09-15 17:19:43,643 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637357871691823324  
+INFO  2020-09-15 17:19:43,645 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637357871691823324  
+INFO  2020-09-15 17:19:43,648 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.3448ms 404 
+INFO  2020-09-15 17:19:43,650 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.3243ms 404 
+INFO  2020-09-15 17:19:43,652 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.6824ms 404 
+INFO  2020-09-15 17:19:43,655 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-15 17:19:43,657 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 18.8922ms 404 
+INFO  2020-09-15 17:19:43,662 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-15 17:19:43,664 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js  
+INFO  2020-09-15 17:19:43,666 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637357871835045336  
+INFO  2020-09-15 17:19:43,670 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.8123ms 404 
+INFO  2020-09-15 17:19:43,674 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js  
+INFO  2020-09-15 17:19:43,679 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.8931ms 404 
+INFO  2020-09-15 17:19:43,682 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js  
+INFO  2020-09-15 17:19:43,688 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.8931ms 404 
+INFO  2020-09-15 17:19:43,693 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js  
+INFO  2020-09-15 17:19:43,697 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.4317ms 404 
+INFO  2020-09-15 17:19:43,699 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-09-15 17:19:43,703 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js  
+INFO  2020-09-15 17:19:43,706 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.5599ms 404 
+INFO  2020-09-15 17:19:43,709 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-09-15 17:19:43,714 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js  
+INFO  2020-09-15 17:19:43,714 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\Users\liuatao\Source\Repos\wypdgithub\HRManager\src\HRManage.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2020-09-15 17:19:43,718 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.115ms 404 
+INFO  2020-09-15 17:19:43,720 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 52.8186ms 200 application/javascript
+INFO  2020-09-15 17:19:43,724 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js  
+INFO  2020-09-15 17:19:43,727 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.2432ms 404 
+INFO  2020-09-15 17:19:43,731 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js  
+INFO  2020-09-15 17:19:43,734 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.1562ms 404 
+INFO  2020-09-15 17:19:43,739 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js  
+INFO  2020-09-15 17:19:43,742 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.8304ms 404 
+INFO  2020-09-15 17:19:43,747 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js  
+INFO  2020-09-15 17:19:43,749 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.8818ms 404 
+INFO  2020-09-15 17:19:43,753 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js  
+INFO  2020-09-15 17:19:43,755 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.5273ms 404 
+INFO  2020-09-15 17:19:43,760 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/localization/messages_zh.min.js  
+INFO  2020-09-15 17:19:43,763 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.285ms 404 
+INFO  2020-09-15 17:19:43,829 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-09-15 17:19:43,832 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 120.5824ms
+INFO  2020-09-15 17:19:43,834 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-15 17:19:43,837 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 195.2049ms 200 application/x-javascript
+INFO  2020-09-15 17:19:43,863 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-09-15 17:19:43,866 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 165.1916ms
+INFO  2020-09-15 17:19:43,869 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-15 17:19:43,871 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 226.0882ms 200 application/x-javascript; charset=utf-8
