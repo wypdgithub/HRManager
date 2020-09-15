@@ -11,11 +11,6 @@ namespace HRManager.Entitys
     //签到表
    public class Sign_In_Tb:Entity<Guid>,IHasCreationTime
     {
-        public Sign_In_Tb()
-        {
-            this.Id = Guid.NewGuid();
-            this.UserId =0;
-        }
         
         public new Guid Id { get; set; }
         public int UserId { get; set; }//用户外键
