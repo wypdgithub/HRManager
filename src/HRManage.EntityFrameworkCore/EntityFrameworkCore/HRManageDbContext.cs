@@ -5,6 +5,7 @@ using HRManage.MultiTenancy;
 using HRManage.Models.Attendance_sheet;
 using HRManage.Models.AuthorityManagement;
 using HRManage.Models.Grades;
+using HRManage.Models.Grade;
 
 namespace HRManage.EntityFrameworkCore
 {
@@ -27,7 +28,10 @@ namespace HRManage.EntityFrameworkCore
         public DbSet<Department> Departments { get; set; }
 
         public DbSet<Yearstaff> Yearstaffs { get; set; }
-        public DbSet<YearleadDto> Yearleads { get; set; }
+        public DbSet<Yearlead> Yearleads { get; set; }
         public DbSet<Salary> Salaries { get; set; }
+        public DbSet<Monthstaff> Monthstaffs { get; set; }
+        public DbSet<Monthlead> Monthleads { get; set; }
+        public DbSet<Grade> Gradess { get; set; }
     }
 }
