@@ -7,6 +7,7 @@ using Abp.Domain.Repositories;
 using System.Threading.Tasks;
 using HRManager.Entitys;
 using HRManage.Signs.Dto;
+using HRManage.Models.Attendance_sheet;
 
 namespace HRManage.Signs
 {

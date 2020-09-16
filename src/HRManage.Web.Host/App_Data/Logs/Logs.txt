@@ -1465,3 +1465,87 @@ INFO  2020-09-15 17:29:09,981 [9    ] ft.AspNetCore.Routing.EndpointMiddleware -
 INFO  2020-09-15 17:29:09,984 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 134.2085ms 500 application/json; charset=utf-8
 INFO  2020-09-15 17:29:23,271 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021//api/services/app/Department/GetAll  
 INFO  2020-09-15 17:29:23,277 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.262ms 404 
+DEBUG 2020-09-15 21:12:40,930 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 21:12:41,040 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 21:12:41,054 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.Web.Host.Startup.HRManageWebHostModule, HRManage.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 21:12:41,056 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageWebCoreModule, HRManage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 21:12:41,056 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageApplicationModule, HRManage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 21:12:41,057 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.HRManageCoreModule, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 21:12:41,057 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 21:12:41,057 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 21:12:41,057 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 21:12:41,058 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 21:12:41,058 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HRManage.EntityFrameworkCore.HRManageEntityFrameworkModule, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 21:12:41,058 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 21:12:41,058 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 21:12:41,059 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 21:12:41,059 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 21:12:41,059 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 21:12:41,059 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 21:12:41,062 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 21:12:41,161 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 21:12:41,161 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 21:12:41,161 [1    ] o.Configuration.LanguageManagementConfig - Converted HRManage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 21:12:41,161 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 21:12:41,590 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HRManage.EntityFrameworkCore.HRManageDbContext, HRManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 21:12:42,506 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 21:12:42,767 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 21:12:42,811 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 21:12:42,830 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HRManage
+DEBUG 2020-09-15 21:12:42,877 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 21:12:43,068 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 21:12:43,201 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[HRManage.MultiTenancy.Tenant, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[HRManage.Authorization.Users.User, HRManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 21:12:43,266 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-15 21:12:43,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 21:12:43,273 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 21:12:43,273 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Users.Dto.UserDto
+DEBUG 2020-09-15 21:12:43,274 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 21:12:43,274 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 21:12:43,274 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 21:12:43,274 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 21:12:43,274 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HRManage.MultiTenancy.Dto.TenantDto
+INFO  2020-09-15 21:12:46,035 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-15 21:12:46,384 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\李霄刚\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-15 21:12:46,479 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-09-15 21:12:46,622 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host)'
+INFO  2020-09-15 21:12:50,641 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller HRManage.Web.Host.Controllers.HomeController (HRManage.Web.Host).
+INFO  2020-09-15 21:12:51,901 [10   ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host) - Validation state: Valid
+INFO  2020-09-15 21:12:51,910 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action method HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.7725ms.
+INFO  2020-09-15 21:12:52,143 [4    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-09-15 21:12:52,150 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host) in 1503.4649ms
+INFO  2020-09-15 21:12:52,152 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.Web.Host.Controllers.HomeController.Index (HRManage.Web.Host)'
+INFO  2020-09-15 21:12:52,178 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-09-15 21:12:52,182 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5701.368ms 302 
+INFO  2020-09-15 21:12:52,227 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49.5559ms 301 
+INFO  2020-09-15 21:12:52,232 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-09-15 21:12:52,271 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 38.4079ms 200 text/html;charset=utf-8
+INFO  2020-09-15 21:12:52,321 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-09-15 21:12:52,325 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-09-15 21:12:52,328 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-09-15 21:12:52,330 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-09-15 21:12:52,333 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-09-15 21:12:52,381 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'E:\项目\实训一\HRManager\src\HRManage.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-09-15 21:12:52,381 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'E:\项目\实训一\HRManager\src\HRManage.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-09-15 21:12:52,383 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 55.7897ms 200 application/javascript
+INFO  2020-09-15 21:12:52,386 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 55.8726ms 200 application/javascript
+INFO  2020-09-15 21:12:52,427 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-09-15 21:12:52,428 [29   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-09-15 21:12:52,436 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 107.7753ms 200 application/javascript
+INFO  2020-09-15 21:12:52,439 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 116.9264ms 200 text/css
+INFO  2020-09-15 21:12:52,443 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-09-15 21:12:52,447 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 121.3884ms 200 application/javascript
+INFO  2020-09-15 21:12:52,781 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-09-15 21:12:52,795 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host)'
+INFO  2020-09-15 21:12:52,824 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller HRManage.Web.Host.Controllers.AntiForgeryController (HRManage.Web.Host).
+INFO  2020-09-15 21:12:52,863 [11   ] c.Infrastructure.ControllerActionInvoker - Executing action method HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host) - Validation state: Valid
+INFO  2020-09-15 21:12:52,866 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-09-15 21:12:52,881 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action method HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 15.3168ms.
+INFO  2020-09-15 21:12:52,924 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 21:12:53,049 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2020-09-15 21:12:53,052 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2020-09-15 21:12:53,057 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.1879ms 404 
+INFO  2020-09-15 21:12:53,060 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.9221ms 404 
+INFO  2020-09-15 21:12:53,094 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host) in 266.7795ms
+INFO  2020-09-15 21:12:53,097 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HRManage.Web.Host.Controllers.AntiForgeryController.SetCookie (HRManage.Web.Host)'
+INFO  2020-09-15 21:12:53,099 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 319.596ms 200 application/json; charset=utf-8
+INFO  2020-09-15 21:12:53,113 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 246.0818ms 200 application/json;charset=utf-8
