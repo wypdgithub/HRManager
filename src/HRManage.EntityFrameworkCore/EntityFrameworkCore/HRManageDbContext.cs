@@ -3,7 +3,6 @@ using Abp.Zero.EntityFrameworkCore;
 using HRManage.Authorization.Roles;
 using HRManage.Authorization.Users;
 using HRManage.MultiTenancy;
-using HRManager.Entitys;
 using HRManage.Models.Attendance_sheet;
 using HRManage.Models.AuthorityManagement;
 using HRManage.Models.Grades;
