@@ -1,15 +1,13 @@
-﻿using System;
+﻿using Abp.Application.Services.Dto;
+using System;
 using System.Collections.Generic;
 using System.Text;
-using Abp.Domain.Entities.Auditing;
 
-namespace HRManage.Models.Grades
+namespace HRManage.Ping.Dto
 {
-    /// <summary>
-    /// 年度主管绩效表
-    /// </summary>
-    public class YearleadDto:AuditedAggregateRoot<Guid>
+    class YearleadDto : EntityDto<Guid>
     {
+        public Guid LId { get; set; }
         public int Duty { get; set; }     //职务
         public int AssessType { get; set; } //考核类型
         public int Adjunct { get; set; } //附件

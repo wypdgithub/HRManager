@@ -1,9 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Abp.Zero.EntityFrameworkCore;
-using HRManage.Authorization.Roles;
 using HRManage.Authorization.Users;
 using HRManage.MultiTenancy;
-using HRManager.Entitys;
 using HRManage.Models.Attendance_sheet;
 using HRManage.Models.AuthorityManagement;
 using HRManage.Models.Grades;
@@ -29,5 +27,7 @@ namespace HRManage.EntityFrameworkCore
         public DbSet<Department> Departments { get; set; }
 
         public DbSet<Yearstaff> Yearstaffs { get; set; }
+        public DbSet<YearleadDto> Yearleads { get; set; }
+        public DbSet<Salary> Salaries { get; set; }
     }
 }
