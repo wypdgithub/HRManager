@@ -8,7 +8,7 @@ namespace HRManage.Models.Grades
     /// <summary>
     /// 年度主管绩效表
     /// </summary>
-    public class YearleadDto:AuditedAggregateRoot<Guid>
+    public class Yearlead:AuditedAggregateRoot<Guid>
     {
         public int Duty { get; set; }     //职务
         public int AssessType { get; set; } //考核类型

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Abp.Application.Services.Dto;
 using HRManage.Models.Grades;
 using HRManage.Ping;
+using HRManage.Ping.Dto;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -22,10 +23,10 @@ namespace HRManage.Web.Controllers
             pingService = ping;
         }
 
-        public PagedResultDto<YearleadDto> GetYearlead()
+        public PagedResultDto<YearstaffDto> GetYearlead()
         {
             var list=pingService.GetAll((new PagedAndSortedResultRequestDto { MaxResultCount = MaxNum })).Items;
-            return (PagedResultDto<YearleadDto>)list;
+            return (PagedResultDto<YearstaffDto>)list;
         }
     }
 }
